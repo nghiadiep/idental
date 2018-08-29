@@ -1,0 +1,47 @@
+/* iingaiyou */
+
+#iingaiyou {
+	margin: 0 0 14px 0;
+}
+#iingaiyou table {
+	width: 560px;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	margin-bottom: 11px;
+}
+#iingaiyou th,#iingaiyou td {
+	padding: 4px 0;
+	text-align: left;
+	vertical-align: top;
+}
+#iingaiyou th {
+	width: 192px;
+	padding-left: 4px}
+
+#iingaiyou table table {
+	width: 352px;
+	border: none;
+	margin-bottom: 0;
+}
+
+
+#iingaiyou table table th {
+	width: 75px;
+	color: #007bd0;
+	font-size: 12px;
+	text-align: left;
+}
+#iingaiyou table table td {
+	color: #333;
+	font-size: 12px;
+}
+#iingaiyou table table th,#iingaiyou table table td{
+	padding: 8px 0;
+	background: url(../imgs/iingaiyou/line.gif) bottom repeat-x;
+	line-height: 140%;
+}
+#iingaiyou table .btn {
+	text-align: right;
+	vertical-align: bottom;
+	padding: 0 20px 12px 0;
+}

@@ -1,0 +1,6 @@
+@mixin text-shadow($x: 1px, $y: 1px, $blur: 1px, $color: rgba(0,0,0,.4)) {
+	-ms-text-shadow: $x $y $blur $color;
+	-moz-text-shadow: $x $y $blur $color;
+	-webkit-text-shadow: $x $y $blur $color;
+    text-shadow: $x $y $blur $color;
+}

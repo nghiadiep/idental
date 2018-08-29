@@ -1,0 +1,93 @@
+
+a:hover,button:hover{opacity: 0.8;cursor: pointer;}
+.tac{text-align: center;}
+.cfx:after{  content: ".";   display: block;   height: 0;   font-size:0;  clear: both;   visibility:hidden;}	
+.FontMin{font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";}
+	
+.TestWrap {
+	width: 1000px;
+	min-height: 300px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.TestWrap > h2{width: 1000px;}
+.TestWrap > h2 img{width: 100%;}
+	h3.BlueBelt{width: 100%;padding: 3% 0;text-align: center;color: #FFF;background: #3E6CC2;margin: 20px 0 40px;font-size: 32px;font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";letter-spacing: 5px}	
+	
+/*歯周病タイプ展開部分*/	
+.TeethType{font-size: 0; vertical-align: top; width: 800px; margin: 0 auto;min-height: 230px;}
+.TeethType > li{width: 100%; vertical-align: top;}	
+.menu {max-width: 800px;margin: 0 auto;padding: 0;}
+label {  display: block;  background: #EEEEEE;font-size: 16px;padding: 2% 2%; text-align: left;vertical-align: middle;	cursor :pointer;font-weight: bold;}
+label.White{background:#fff;}	
+label > img{vertical-align: sub;float: right;}
+label > img:hover{opacity: 0.8;}	
+input {	display: none;}
+.menu ul {	margin: 0;	padding: 0;  background :#f4f4f4;	list-style: none;}
+.menu li {  max-height: 0;  overflow-y: hidden;  -webkit-transition: all 0.5s;	-moz-transition: all 0.5s;	-ms-transition: all 0.5s;	-o-transition: all 0.5s;	transition: all 0.5s;}
+.menu li img{width: 100%;}
+#links02 li,#links03 li,#links04 li,#links05 li,#links06 li,#links07 li,#links08 li,#links09 li	{background: #FFF;text-align:center;font-size: 18px;box-sizing: border-box;border: 1px solid #EEEEEE;}
+#links02 li	> div,#links03 li > div,#links04 li	> div,#links05 li	> div,#links06 li > div,#links07 li	> div,#links08 li	> div,#links09 li	> div{text-align: left; box-sizing: border-box;padding: 3% 1%;line-height: 24px;}	
+#menu_bar02:checked ~ #links02 li,#menu_bar03:checked ~ #links03 li,#menu_bar04:checked ~ #links04 li,#menu_bar05:checked ~ #links05 li,#menu_bar06:checked ~ #links06 li,#menu_bar07:checked ~ #links07 li,#menu_bar08:checked ~ #links08 li,#menu_bar09:checked ~ #links09 li {	max-height: 300px; opacity: 1;}	
+/*歯周病タイプ展開部分*/
+	
+	
+/*オールオンフォーってどんな治療方法？*/	
+	.allon4Detail01,.allon4Detail03,.allon4Detail04{width: 800px;font-size: 0; margin: 0 auto;padding: 0;}
+	.allon4Detail01 > li{display: inline-block;width: 32%;font-size: 14px;vertical-align: top}
+	.allon4Detail01 > li > p{text-align: center; margin: 10px 0;}
+	.allon4Detail01 > li >img{width: 100%;}
+	.allon4Detail01 > li:not(:last-child){margin-right: 2%}
+	.allon4Detail02 p{font-size: 20px;line-height: 40px;width: 800px; margin: 20px auto;}
+	.allon4Detail02 > p > span{border-bottom: 5px solid #F8E92B;}
+	.allon4Detail02 > dl{width: 800px; margin: 0 auto;}
+	.allon4Detail02 > dl > dd,.allon4Detail02 > dl > dt{width: 100%;padding: 0;margin: 10px 0;}
+	.allon4Detail02 > dl > dt{font-weight: bold; font-size: 18px;color: #3E6CC2;}
+
+/*実績*/	
+	.allon4Detail01 > h4.zisseki{font-size: 32px; color:#3E6CC2;text-align: center;line-height: 48px;margin: 0 auto; letter-spacing: 6px;}
+	.allon4Detail01 > h4.zisseki > span{font-size: 42px;}
+	.allon4Detail01 > p{font-size: 20px;line-height: 40px;width: 800px; margin: 20px auto;}
+
+/*治療例*/
+	.allon4Detail03 > li{display: inline-block;font-size: 18px;vertical-align: top;line-height: 32px;margin-bottom: 30px;}
+	.allon4Detail03 > li > span{font-size: 24px;}
+	.allon4Detail03 > li:first-child{width: 40%;margin-right: 3%;}
+	.allon4Detail03 > li:last-child{width: 55%;}
+	.allon4Detail03 > li.ReverseL{width: 55%!important;margin-right: 3%!important;}
+	.allon4Detail03 > li.ReverseR{width: 40%!important;}
+
+/*料金・保証*/
+	.Price{width: 800px;font-size: 40px; font-weight: bold;margin: 0 auto;text-align: center;margin-bottom: 20px;}
+	.Price > span{border-bottom: 5px solid #F8E92B;}
+	.PriceLoan{background: #E3DCDC;padding: 3%;border-radius: 120px;width: 640px;margin: 30px auto;}
+	.PriceLoan > p {font-size: 18px;text-align: center;}
+	.PriceLoan > p.PriceLoanDetail {font-size: 42px;font-weight: bold;}
+	.PriceLoan > p.PriceLoanDetail > span{font-size: 24px;}
+	p.PriceAdd {margin: 10px 0;font-size: 16px;text-align: center;line-height: 24px;}
+	.PriceInclude{width: 800px;margin: 0 auto 30px;background: #FAF7F7;padding-bottom: 2%;}
+	.PriceInclude > dt{background:#E5ECF7;padding: 2% 3%;box-sizing: border-box;font-size: 20px;margin-bottom: 30px}
+	.PriceInclude > dd{margin: 10px 0 10px 30px;font-size: 18px;}
+	.PriceInclude > dd.Hosyou{font-size: 14px;margin-top: 20px;}
+	.AddImage{background:#FAF7F7 url(http://www.identalclinic.jp/imgs/allon4/allon4_security.png); background-repeat: no-repeat; background-position: bottom right;background-size: 25%;}
+	
+/*治療の流れ*/	
+	.allon4Detail04 > li{display: inline-block;}
+	.allon4Detail04 > li:first-child{width: 10%;margin-right: 2%;    vertical-align: top;padding-top: 5%;}
+	.allon4Detail04 > li:last-child{width: 88%;font-size: 18px;font-weight: bold;}
+	.allon4Detail04 > li > ul >li{margin-bottom: 40px;color:#3E6CC2;font-weight: bold; }
+	li.Flow1{background: url(http://www.identalclinic.jp/imgs/allon4/allon4_mainflow_2.png);height: 100px;position: relative;list-style: none;}
+	li.Flow2{background: url(http://www.identalclinic.jp/imgs/allon4/allon4_mainflow_3.png);height: 100px;position: relative;list-style: none;}
+	li.Flow3{background: url(http://www.identalclinic.jp/imgs/allon4/allon4_mainflow_4.png);height: 100px;position: relative;list-style: none;}
+	li.Flow4{background: url(http://www.identalclinic.jp/imgs/allon4/allon4_mainflow_5.png);height: 100px;position: relative;list-style: none;}
+	li.Flow5{background: url(http://www.identalclinic.jp/imgs/allon4/allon4_mainflow_6.png);height: 100px;position: relative;list-style: none;}
+	.allon4Detail04  li.Flow1 > div,.allon4Detail04  li.Flow2 > div,.allon4Detail04  li.Flow3 > div,.allon4Detail04  li.Flow4 > div{position: absolute;top: 35px;left: 130px;}
+	.allon4Detail04  li.Flow5 > div{position: absolute;top: 25px;left: 130px;}
+/*info*/	
+.info{width: 800px;margin: 40px auto; background: #E5ECF7;border-radius: 15px;padding: 2%;box-sizing: border-box;text-align: center;}
+	.info p{text-align: center; margin-bottom: 20px;font-size: 16px;font-weight: bold;color: #3E6CC2;letter-spacing: 3px;}	
+.info > ul{font-size: 0;padding: 0; }
+.info > ul > li{display: inline-block; width: 48%;vertical-align: top;}
+.info > ul > li > a >img,.info > ul > li > img{width: 100%;}
+.info > ul > li:first-child{margin-right: 1%; padding-right: 1%; border-right: 1px solid #333333;}

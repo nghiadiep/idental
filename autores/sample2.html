@@ -1,0 +1,148 @@
+<html><head>
+<title>送信フォーム</title>
+
+<STYLE TYPE="text/css">
+<!--
+a:link    {font-size: 11pt; text-decoration:none; color:#0000ff ;}
+a:visited {font-size: 11pt; text-decoration:none; color:#0000ff ;}
+a:active  {font-size: 11pt; text-decoration:none; color:#0000ff ;}
+a:hover   {font-size: 11pt; text-decoration:underline; color:#ff00ff ;}
+span      {line-height:12pt;}
+.style1 {
+	font-weight: bold;
+	font-size: 11pt;
+}
+.style2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11pt;
+}
+.style4 {
+	font-family: "Courier New", Courier, mono;
+	font-size: 18pt;
+	color: #FF0000;
+	font-weight: bold;
+}
+.style5 {
+	font-size: 10pt;
+}
+.style3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+-->
+</STYLE>
+
+</head>
+
+<body bgcolor=#ffffff background="bg4.gif">
+<table width="600" border="0" cellspacing="0" cellpadding="3" align=center>
+<tr bgcolor="#996666"> 
+<td bgcolor="#FFCC00"> 
+<center class="style1">
+オートレスポンダー　サンプルフォーム（Ａ－２）
+</center>
+</td>
+</tr>
+</table>
+<center><img src="./images/email.gif" width="135" height="107"></center>
+<form method="post" action="form.cgi">
+  <table width="600" border="0" cellspacing="1" cellpadding="5" align="center">
+<tr bgcolor="#FFFFFF" valign="top">
+  <td><span class="style4">*</span><span class="style5">が付いている項目は入力必須です</span></td>
+</tr>
+<tr bgcolor="#FFFFFF" valign="top"> 
+<td> 
+<center>
+</center>
+<table border="1" cellspacing="1" cellpadding="5" align="center" width="100%" bordercolor="#FFCC00">
+<tr> 
+<td nowrap bgcolor="#FFCC00"><span class="style1">お名前</span></td>
+<td> 
+<input name="お名前" type="text" class="style5">
+<span class="style4">*</span></td>
+</tr>
+<tr> 
+<td nowrap bgcolor="#FFCC00" class="style1">郵便番号</td>
+<td> 
+<input name="郵便番号" type="text" class="style3" size="10">
+<span class="style4">*</span></td>
+</tr>
+<tr> 
+<td nowrap bgcolor="#FFCC00" class="style1">住所</td>
+<td> 
+<input name="住所" type="text" class="style5" size="50">
+<span class="style4">*</span></td>
+</tr>
+<tr> 
+<td nowrap bgcolor="#FFCC00" class="style1">電話番号</td>
+<td> 
+<input name="電話番号" type="text" class="style3" size="20">
+<span class="style4">*</span></td>
+</tr>
+<tr> 
+<td nowrap bgcolor="#FFCC00"><span class="style2">FAX</span><span class="style1">番号</span></td>
+<td> 
+<input name="FAX番号" type="text" class="style3" size="20">
+</td>
+</tr>
+<tr> 
+<td nowrap bgcolor="#FFCC00"><span class="style2">E-Mail</span></td>
+<td>
+  <input name="e-mail" type="text" class="style3" size="50">
+  <span class="style4">*</span></td>
+</tr>
+<tr>
+  <td valign="top" nowrap bgcolor="#FFCC00" class="style1">お問い合わせ内容</td>
+  <td>
+    <select name="内容" class="style5" id="内容">
+      <option value=""></option>
+      <option value="商品に関する質問">商品に関する質問</option>
+      <option value="注文に関する問い合わせ">注文に関する問い合わせ</option>
+      <option value="配送に関する問い合わせ">配送に関する問い合わせ</option>
+      <option value="ショッピング全般に対するご質問">ショッピング全般に対するご質問</option>
+      <option value="当店に対するご意見・ご要望">当店に対するご意見・ご要望</option>
+      <option value="その他">その他</option>
+    </select>
+    <span class="style5"> <span class="style4">*</span><br>
+    特定の商品に関するお問い合わせの場合、商品名をご記入下さい</span>
+    <input name="商品名" type="text" class="style5" id="商品名" size="50">
+    </td>
+</tr>
+<tr> 
+<td valign="top" nowrap bgcolor="#FFCC00" class="style1">お問い合わせ</td>
+<td> <font color="#FF0000"><b> </b></font> 
+<textarea name="お問い合わせ" cols="50" rows="5" class="style5"></textarea>
+<span class="style5"><span class="style4">*</span></span><br>
+</td>
+</tr>
+</table>
+<br>
+<table border="0" cellspacing="0" cellpadding="3" align="center" width="100%">
+<tr bgcolor="#996666" align="center"> 
+<td height="37" colspan="2" bgcolor="#FFCC00"> 
+<input type="hidden" name="id" value="A-2">
+<input type="hidden" name="mode" value="view">
+<input type="submit" value="送信">
+<input type="reset" value="リセット">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</form>
+<center>
+<br>
+<br>
+</center>
+<center>
+  <table cellpadding="5" cellspacing="0" width="600">
+    <tr>
+      <td style="font-size: 13px;" height="23" align="right"> （株）キーワードマーケティング研究所　E-mail: <a href="mailto:info@niche-marketing.jp"><i>info@niche-marketing.jp</i></a><br>
+      Copyright (C) 2005 niche-marketing.jp All rights reserved. </td>
+    </tr>
+  </table>
+</center>
+</body>
+</html>

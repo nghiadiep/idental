@@ -1,0 +1,149 @@
+/* clearFix */
+.clfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+*:first-child+html .clfix {
+	display: inline-block;
+	min-height: 1%;
+}
+/* Hides from IE6/IE Mac \*/
+* html .clfix {
+	height: 1%;
+}
+.clfix {
+	display: block;
+}
+
+
+/* interview */
+#interview{
+	width: 580px;
+	marign: 0 auto;
+}
+#interview .inner{
+
+}
+#interview h3{
+	margin-bottom: 20px;
+}
+#interview h4{
+	margin-bottom: 15px;
+}
+#interview .frame{
+	width: 100%;
+	margin:0 auto;
+}
+#interview .frame h4{
+	margin-top: 10px;
+} 
+#interview .txt{
+	width: 100%;
+	margin:0 auto 20px;
+	padding-left: 10px;
+}
+#interview .bg_line{
+	background: url(../imgs/interview/line.gif) bottom repeat-x;
+	padding-bottom: 5px;
+}
+#interview .inner p{
+	font-size: 12px;
+	line-height: 1.8;
+	color: #333;
+	margin-bottom: 1em;
+}
+
+#interview .f_left{
+	float: left;
+	padding-left: 10px;
+}
+#interview .f_right{
+	float: right;
+}
+#interview .bn_area{
+	margin:0 auto 10px;
+	text-align: center;
+}
+#interview .bn_area p{
+	margin: 0 auto 10px;
+	text-align: center;
+}
+
+#safety{
+	text-align: center;
+}
+#safety h2{
+	margin-bottom: 10px;
+}
+#safety .clfix{
+	width: 790px;
+	margin: 0 auto 30px;
+}
+#safety .left{
+	float: left;
+	width: 390px;
+}
+#safety .left img{
+	margin-left: 10px;
+}
+#safety .right{
+	float: right;
+	width: 390px;
+}
+#safety .border{
+	width: 390px;
+	border: 1px solid #340167;
+	padding: 10px 0;
+}
+#safety .border p{
+	margin: 0 10px;
+	font-weight: bold;
+	color: #306;
+}
+#safety h3{
+	margin: 0 auto 15px;
+}
+#safety p{
+	font-size: 12px;
+	line-height: 2.0;
+	color: #333;
+	margin-bottom: 1em;
+}
+#safety span{
+	color: #c00;
+	text-decoration: underline;
+}
+#safety table{
+	width: 100%;
+}
+
+/* 130814 for cont */
+.wm_cont h2{
+	margin-bottom: 30px;
+}
+.wm_cont div h3{
+	margin: 0 0 20px;
+}
+.wm_cont h4{
+	margin: 20px 0;
+}
+.wm_cont div{
+	margin-bottom: 30px;
+}
+.wm_cont div p{
+	margin: 0 auto 10px;
+	text-align: center;
+}
+.wm_cont div p.txt{
+	font-size: 12px;
+	text-align: left;
+	line-height: 1.8;
+	width: 560px;
+}
+
+
+
+

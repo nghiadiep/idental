@@ -1,0 +1,163 @@
+<html><head>
+<title>送信フォーム</title>
+
+<STYLE TYPE="text/css">
+<!--
+a:link    {font-size: 11pt; text-decoration:none; color:#0000ff ;}
+a:visited {font-size: 11pt; text-decoration:none; color:#0000ff ;}
+a:active  {font-size: 11pt; text-decoration:none; color:#0000ff ;}
+a:hover   {font-size: 11pt; text-decoration:underline; color:#ff00ff ;}
+span      {line-height:12pt;}
+.style1 {
+	font-weight: bold;
+	font-size: 11pt;
+}
+.style2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11pt;
+}
+.style4 {
+	font-family: "Courier New", Courier, mono;
+	font-size: 18pt;
+	color: #FF0000;
+	font-weight: bold;
+}
+.style5 {
+	font-size: 10pt;
+}
+.style3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+-->
+</STYLE>
+
+</head>
+
+<body bgcolor=#ffffff background="bg4.gif">
+<table width="600" border="0" cellspacing="0" cellpadding="3" align=center>
+<tr bgcolor="#996666"> 
+<td bgcolor="#FFCCCC"> 
+<center class="style1">
+オートレスポンダー　サンプルフォーム（D－１）
+</center>
+</td>
+</tr>
+</table>
+<center><img src="./images/ticket.gif" width="135" height="135">
+</center>
+<form method="post" action="form.cgi">
+  <table width="600" border="0" cellspacing="1" cellpadding="5" align="center">
+<tr bgcolor="#FFFFFF" valign="top">
+  <td><span class="style4">*</span><span class="style5">が付いている項目は入力必須です</span></td>
+</tr>
+<tr bgcolor="#FFFFFF" valign="top"> 
+<td> 
+<center>
+</center>
+<table border="1" cellspacing="0" cellpadding="5" align="center" width="100%" bordercolor="#990033">
+  <tr>
+    <td nowrap bgcolor="#FFCCCC"><span class="style1">お名前　<span class="style4">*</span></span></td>
+    <td>
+      <input name="お名前" type="text" class="style5">
+      </td>
+  </tr>
+  <tr>
+    <td nowrap bgcolor="#FFCCCC" class="style1">性別　<span class="style4">*</span> </td>
+    <td>
+      <input name="性別" type="radio" value="女性">
+      女性
+　
+<input name="性別" type="radio" value="男性" checked>
+男性</td>
+  </tr>
+  <tr>
+    <td nowrap bgcolor="#FFCCCC" class="style1">郵便番号　<span class="style4">*</span></td>
+    <td>
+      <input name="郵便番号" type="text" class="style3" size="10">
+      </td>
+  </tr>
+  <tr>
+    <td nowrap bgcolor="#FFCCCC" class="style1">住所　<span class="style4">*</span></td>
+    <td>
+      <input name="住所" type="text" class="style5" size="50">
+      </td>
+  </tr>
+  <tr>
+    <td nowrap bgcolor="#FFCCCC" class="style1">電話番号　<span class="style4">*</span></td>
+    <td>
+      <input name="電話番号" type="text" class="style3" size="20">
+      </td>
+  </tr>
+  <tr>
+    <td nowrap bgcolor="#FFCCCC"><span class="style2">ご職業</span><span class="style1"></span></td>
+    <td>
+      <select name="職業" id="職業">
+        <option value="学生">学生</option>
+        <option value="会社員">会社員</option>
+        <option value="専門職">専門職</option>
+        <option value="派遣社員">派遣社員</option>
+        <option value="パート・アルバイト">パート・アルバイト</option>
+        <option value="自営業">自営業</option>
+        <option value="専業主婦">専業主婦</option>
+        <option value="無職・休職中">無職・休職中</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td nowrap bgcolor="#FFCCCC"><span class="style2">E-Mail　<span class="style4">*</span></span></td>
+    <td>
+      <input name="e-mail" type="text" class="style3" size="50">
+      </td>
+  </tr>
+  <tr>
+    <td valign="top" nowrap bgcolor="#FFCCCC" class="style1">申込するイベント　<span class="style4">*</span></td>
+    <td>
+      <p><span class="style5"> </span><input name="イベント" type="radio" id="イベント" value="試写会" checked>
+            試写会　
+            <input name="イベント" type="radio" id="イベント" value="読書会">
+            読書会　 
+            <input name="イベント" type="radio" id="イベント" value="ファッションショー">
+ファッションショー　
+<input name="イベント" type="radio" id="イベント" value="展覧会">
+展覧会</p>
+      </td>
+  </tr>
+  <tr>
+    <td valign="top" nowrap bgcolor="#FFCCCC" class="style1">コメント</td>
+    <td> <font color="#FF0000"><b> </b></font>
+        今後実施して欲しいイベントなどあれば、ご記入ください<br>
+        <textarea name="コメント" cols="50" rows="5" class="style5"></textarea>
+    </td>
+  </tr>
+</table>
+<br>
+<table border="0" cellspacing="0" cellpadding="3" align="center" width="100%">
+<tr bgcolor="#996666" align="center"> 
+<td height="37" colspan="2" bgcolor="#FFCCCC"> 
+  <input type="hidden" name="id" value="D-1">
+<input type="hidden" name="mode" value="view">
+<input type="submit" value="送信">
+<input type="reset" value="リセット">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</form>
+<center>
+<br>
+<br>
+</center>
+<center>
+  <table cellpadding="5" cellspacing="0" width="600">
+    <tr>
+      <td style="font-size: 13px;" height="23" align="right"> （株）キーワードマーケティング研究所　E-mail: <a href="mailto:info@niche-marketing.jp"><i>info@niche-marketing.jp</i></a><br>
+      Copyright (C) 2005 niche-marketing.jp All rights reserved. </td>
+    </tr>
+  </table>
+</center>
+</body>
+</html>

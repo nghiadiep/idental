@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import "function-size";
+@import "function-space";
+//Import general use for all page
+@import "include-common";
+/***
+	Original file common
+ ***/
+@import "common-original";
+/***
+	Components
+***/
+@import "components/breakcrumd";
+@import "components/content-tel";
+@import "components/title";
+/***
+	Layouts
+***/
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";

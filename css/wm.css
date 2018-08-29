@@ -1,0 +1,157 @@
+/* maker */
+
+#maker {
+margin: 0 0 30px 0;
+}
+#maker h2 {
+margin: 0 0 3px 0;
+width: 580px;
+height: 32px;
+
+}
+#maker h2.ti_1 {background: url(../imgs/maker/ti_1.gif) no-repeat 0 0;}
+#maker h2.ti_2 {background: url(../imgs/anesthetist/ti_1.gif) no-repeat 0 0;}
+#maker .inner {
+padding: 0;
+width: 580px;
+}
+*html #maker .inner {width: 600px;}
+#maker p{
+margin: 0 auto;
+text-align: center;
+font-size: 13px;
+color: #666;
+line-height: 150%;
+}
+
+#wse .head{
+	margin: 0 auto 30px;
+}
+#wse h2,#wse h3,#wse h4{
+	text-align: center;
+	margin: 0 auto 10px;
+}
+#wse h3{
+	margin: 20px auto 10px;
+}
+
+#wse p{
+	color: #333;
+	font-size: 13px;
+}
+#wse p .bold{
+	font-size: 14px;
+	line-height: 180%;
+}
+#wse td{
+	text-align: left;
+	vertical-align: top;
+}
+
+#wse .head p{
+	width: 550px;
+	margin: 0 auto;
+	text-align: left;
+}
+#wse .head p{
+	line-height: 180%;
+}
+#wse .step{
+	width: 580px;
+	margin: 20px auto;
+	background: url(../imgs/wse/line.gif) bottom repeat-x;
+}
+#wse .step td{
+	width: 33%;
+}
+#wse .step td p{
+	line-height: 150%;
+	padding: 5px 5px 20px;
+}
+#wse .wm_table{
+	width: 580px;
+	margin: 20px auto;
+	background: url(../imgs/wse/line.gif) bottom repeat-x;
+}
+#wse .wm_table td{
+	vertical-align: middle;
+}
+#wse .wm_table th{
+	width: 300px;
+	text-align: right;
+	padding-bottom: 20px;
+}
+#wse .wm_table td p{
+	line-height: 180%;
+	margin-bottom: 5px;
+}
+
+#dispo{
+	text-align: center;
+	margin: 16px auto 0;
+}
+#dispo img{
+	vertical-align: bottom;
+}
+#dispo table{
+	width: 580px;
+	margin: 5px auto 10px;
+}
+#dispo td{
+	padding: 10px;
+	vertical-align: top;
+}
+#dispo td p{
+	font-size: 12px;
+	color: #666;
+}
+.img{
+	margin:10px auto 15px;
+	text-align: center;
+}
+.box530{
+	width: 530px;
+	margin: 20px auto 30px;
+	text-align: left;
+}
+.box390{
+	width: 390px;
+	margin: 20px auto 0;
+	text-align: left;
+}
+.box530 h4{
+	margin: 10px;
+}
+.box390 h4{
+	margin-bottom: 5px;
+	padding: 0 15px;
+	color: #007bd0;
+	font-size: 14px;
+}
+.box530 div,.box390 div{
+	border: 1px solid #ccc;
+	padding: 10px 0;
+}
+.box530 div p{
+	padding: 0 20px;
+	font-size: 12px;
+	color: #666;
+}
+.box390 div p{
+	padding: 0 15px 0 24px;
+	text-indent: -8px;
+	font-size: 12px;
+	color: #666;
+}
+#dispo .txt{
+	width: 540px;
+	margin: 15px auto;
+	text-align: left;
+}
+#dispo .inner{
+	width: 550px;
+	margin: 10px auto;
+}
+#dispo .inner p{
+	margin: 5px 10px;
+}

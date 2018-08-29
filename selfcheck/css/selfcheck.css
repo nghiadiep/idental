@@ -1,0 +1,211 @@
+/* Selfcheck */
+a:hover,button:hover{opacity: 0.8;cursor: pointer;}
+.bg3 {
+	background-image: linear-gradient(transparent 95%, rgba(0, 0, 0, 0.1) 5%), linear-gradient(90deg, transparent 95%, rgba(0, 0, 0, 0.1) 5%);
+	background-size: 40px 40px;
+	background-repeat: repeat;
+}
+.TestWrap {
+	width: 800px;
+	min-height: 300px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.TestWrap > .Image001, .TestWrap > .Image002 {
+	font-size: 0;
+	margin: 20px 0;
+}
+.TestWrap > .Image001 > li {
+	display: inline-block;
+	font-size: 40px;
+	vertical-align: middle;
+	line-height: 80px;
+}
+.TestWrap > .Image001 > li:first-child {
+	width: 80%;
+}
+.TestWrap > .Image001 > li > span {
+	font-size: 48px;
+	font-weight: bold;
+	border-bottom: solid 10px #F8E92B;
+}
+.TestWrap > .Image002 > li {
+	display: inline-block;
+	font-size: 20px;
+	vertical-align: top;
+}
+.RankingHeading {
+	background: #C7C6C5;
+	border-radius: 50px;
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	font-weight: bold;
+	line-height: 20px;
+}
+.RankingHeading > span {
+	font-size: 12px;
+	font-weight: normal;
+}
+.TestWrap > .Image002 > li:last-child {
+	width: 65%;
+	margin-left: 2%
+}
+.TestWrap > .Image002 > li > ul {
+	font-size: 0;
+	margin-top: 20px;
+}
+.TestWrap > .Image002 > li > ul > li {
+	display: inline-block;
+	font-size: 18px;
+	width: 50%;
+	vertical-align: middle;
+	margin-bottom: 15px;
+}
+
+.TestWrap > .Image002 > li > ul > li > span{
+	color: red;
+	font-weight: bold;
+	border-bottom: solid 5px #F8E92B;
+}
+
+.TestWrap > .Image002 > li > ul > li > img {
+	margin-right: 10px
+}
+.CheckListHeading {
+	background: rgba(0,0,0,0.6);
+	color: #FFF;
+	box-sizing: border-box;
+	padding: 8px;
+	text-align: center;
+	line-height: 32px;
+	font-size: 16px;
+}
+.CheckListHeading > span {
+	font-size: 32px;
+}
+.CheckList {
+	width: 80%;
+	margin: 0 auto;
+}
+.CheckList > ul {
+	list-style: none;
+	font-size: 18px;
+}
+.CheckList > ul > li {
+	margin-bottom: 10px;
+}
+.CheckList > div {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px auto;
+	width: 80%;
+}
+.CheckButton {
+	border: 0px;
+	width: 544px;
+	height: 53px;
+	background: url(http://www.identalclinic.jp/imgs/selfcheck/diagnosis_btn1.png);
+	margin: 20px auto;
+}
+.CheckButtonWrap {
+	margin: 0 auto;
+}
+.ResultWrap {
+	background: #E5ECF7;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 100%!important;
+}
+.ResultWrap ul {
+	font-size: 0;
+	list-style: none;
+	padding: 0;
+}
+.ResultWrap > ul >li > ul >li, .ResultWrap > ul >li {
+	font-size: 24px;
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+.ResultWrap > ul >li > ul >li {
+	width: 40%;
+}
+.ResultWrap > ul >li > ul >li:first-child {
+	text-align: center;
+	font-weight: bold;
+}
+.ResultWrap > ul >li > ul >li:last-child {
+	font-size: 96px;
+	line-height: 80px;
+	font-weight: bold;
+}
+.ResultWrap > ul >li > ul >li:last-child > span {
+	font-size: 24px;
+}
+.ResultWrap > ul >li:last-child {
+	font-size: 18px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.CheckResult {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	width: 100%;
+}
+.Barometer {
+	width: 330px;
+	height: 40px;
+	background: #fff;
+	position: relative;
+}
+
+.Barometer30 {
+	width: 99px;
+	height: 32px;
+	position: absolute;
+	background: #3C6DC2;
+	top: 4px;
+}
+	
+.Barometer50 {
+	width: 165px;
+	height: 32px;
+	position: absolute;
+	background: #3C6DC2;
+	top: 4px;
+}	
+	
+.Barometer80 {
+	width: 264px;
+	height: 32px;
+	position: absolute;
+	background: #3C6DC2;
+	top: 4px;
+}
+	
+.Barometer100 {
+	width: 330px;
+	height: 32px;
+	position: absolute;
+	background: red;
+	top: 4px;
+}	
+.ResultSolution {
+	text-align: center;
+}
+.ResultSolution > img {
+	margin-top: 20px;
+}
+.ResultSolution > p {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 36px;
+	margin: 20px 0 40px;
+	text-align: center;
+}
+.ResultSolution > p > span {
+	font-size: 28px;
+	border-bottom: solid 6px #F8E92B;
+}

@@ -1,0 +1,464 @@
+@charset "UTF-8";
+//Import general use for all page
+@import "../include-common";
+/* info */
+
+#info {
+    margin: 0 0 20px 0;
+    background: #eee;
+}
+
+#info h3 {}
+
+#info .inner {
+    padding: 0 12px 10px 12px;
+}
+
+*html #info .inner {
+    padding: 0 10px 10px 10px;
+}
+
+#info h4 {
+    padding: 0 0 8px 10px;
+    background: url(../imgs/common/ic_3.gif) no-repeat 2px 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 14px;
+}
+
+#info address {
+    margin: 0 0 4px 0;
+    padding: 0 0 0 2px;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+#info table {
+    margin: 0 0 10px 0;
+    width: 180px;
+    line-height: 150%;
+    text-align: left;
+}
+
+#info table th {
+    padding: 6px;
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    width: 10%;
+    font-size: 10px;
+    line-height: 120%;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+#info table td {
+    padding: 6px;
+    width: 90%;
+    font-size: 12px;
+}
+
+#info dl {
+    padding: 8px;
+    background: #fff;
+    border: 1px solid #00a73c;
+    width: 158px;
+}
+
+*html #info dl {
+    width: 180px;
+}
+
+#info dl dt {
+    margin: 0 0 5px 0;
+    padding: 0 0 0 45px;
+    background: url(../imgs/common/ic_4.gif) no-repeat 18px 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+}
+
+#info dl dd {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+}
+
+#info dl dd span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#info blockquote {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+
+//========================/
+/* point */
+
+#point {
+    margin: 0 0 20px 0;
+}
+#point table{
+    width: 580px;
+    margin:5px auto;
+    border-collapse: collapse;
+}
+#point td{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* index */
+
+.index {
+    width: 582px;
+    margin: 0 auto 5px;
+    padding-bottom: 10px;
+    background: url(../imgs/index/line_dot.gif) bottom repeat-x;
+}
+.index h2{
+    margin:0 auto 5px;
+}
+.index h3{
+    margin:0 auto 15px;
+}
+.index p{
+    font-size: 14px;
+}
+.frame01,.frame02{
+    width: 560px;
+    margin: 0 auto 10px;
+}
+.frame01 .left{
+    float: left;
+    display: inline;
+    width: 182px;
+}
+.frame01 .left img{
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+.frame01 .left p {
+    font-size: 12px;
+    color: #666;
+}
+.frame01 .right {
+    float: right;
+    display: inline;
+    width: 370px;
+}
+.frame01 .right p {
+    margin: 0 0 10px;
+}
+.frame01 dl {
+    padding: 10px 10px 0;
+    background: url(../imgs/index/fr_1_t.gif) no-repeat 0 0 #f5f5f5;
+    width: 350px;
+}
+*html .frame01  dl {width: 360px;}
+.frame01 dl dt {
+float: left;
+margin: 0 5px 0 0;
+width: 80px;
+}
+.frame01  dl dd {
+float: left;
+margin: 0 10px 0 0;
+width: 85px;
+font-size: 10px;
+line-height: 150%;
+text-align: justify;
+text-justify: distribute;
+}
+.frame02 .left{
+    float: left;
+    display: inline;
+    width: 280px;
+}
+.frame02 .left p{
+    line-height: 1.8;
+    margin: 0 2px;
+}
+.frame02 .right {
+    float: right;
+    display: inline;
+    width: 240px;
+}
+
+
+.index blockquote {margin: 0; padding: 0; background: url(../imgs/index/fr_1_b.gif) no-repeat 0 0; height: 10px; font-size: 0; }
+
+.bn_cpnewyear{margin:0 0 5px;}
+
+.table01{
+    margin: 5px 0 0;
+    width: 556px;
+}
+.table02{
+    margin: 10px 10px 0;
+    width: 556px;
+}
+
+.table01 th{
+    width: 312px;
+    text-align: left;
+}
+.table01 td{
+    text-align: center;
+    vertical-align: top;
+}
+.table01 td p{
+    margin-bottom: 20px;
+    color:#333;
+    font-size: 12px;
+    line-height: 150%;
+}
+.table01 td .bold{
+    color: #007bd0;
+}
+.link{
+    width: 540px;
+    text-align: right;
+    font-size: 13px;
+}
+
+.table02 td{
+    width: 33%;
+    text-align: center;
+    vertical-align: top;
+}
+.table02 td p{
+    color:#333;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 5px;
+}
+.table02 td address{
+    color:#333;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: left;
+}
+.bold{
+    color: #007bd0;
+}
+.table02 td small{
+    font-size: 12px;
+}
+.table02 .link{
+    width: auto;
+}
+.ar_link{
+    background: url(../imgs/index/ar.gif) 1px 3px no-repeat;
+    padding-left: 12px;
+}
+#left .bn_area p{
+    line-height: 1.0;
+    margin-bottom: 10px;
+}
+
+.img_main{
+    width: 800px;
+    margin: 0 auto 18px;
+}
+#sliderImg {
+    position: relative;
+    height: 267px;
+    width: 800px;
+}
+
+#sliderImg li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    list-style: none;
+}
+
+#sliderImg div {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 15;
+    width: 222px;
+    display: none;
+}
+
+.info_price{
+    width: 580px;
+    height: 170px;
+    background: url(../imgs/index/info_price.jpg) top left no-repeat;
+}
+.info_price p{
+    position: relative;
+    top: 52px;
+    left: 11px;
+    width: 320px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.info_kojo{
+    width: 580px;
+    height: 240px;
+    background: url(../imgs/index/info_kojo.jpg) top left no-repeat;
+}
+.info_kojo img{
+    text-align: right;
+    margin-top: 10px;
+}
+.info_kojo p{
+    position: relative;
+    top: 52px;
+    left: 11px;
+    width: 420px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+.info_movie{
+    width: 580px;
+    margin: 15px 0 40px 0;
+    background: url(../imgs/index/info_movie.jpg) top left no-repeat;
+}
+.info_movie img{
+    text-align: right;
+    margin-top: 10px;
+}
+.info_movie p{
+    position: relative;
+    top: 62px;
+    left: 11px;
+    width: 420px;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.info_counseling{
+    width: 580px;
+    background: url(../imgs/index/info_counseling.jpg) top left no-repeat;
+    height: 210px;
+}
+.info_counseling p{
+    position: relative;
+    top: 52px;
+    left: 11px;
+    width: 320px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.info_price a,.info_counseling a,.info_access a,.info_kojo a{
+    background: url(../imgs/common/ar01.gif) 4px 3px no-repeat;
+    padding-left: 15px;
+}
+.info_access{
+    margin: 15px 25px 30px;
+    text-align: right;
+}
+
+.info_yamada{
+    width: 566px;
+    height: 199px;
+    background: url(../imgs/index/info_yamada.jpg) top left no-repeat;
+}
+.info_yamada p{
+    position: relative;
+    top: 65px;
+    left: 162px;
+    width: 320px;
+    line-height: 1.8;
+    font-family: "‚l‚r ‚oƒSƒVƒbƒN", Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3";
+}
+.info_kan{
+    width: 563px;
+    height: 170px;
+    background: url(../imgs/index/info_kan.jpg) top left no-repeat;
+}
+.info_kan p{
+    position: relative;
+    top: 56px;
+    left: 14px;
+    width: 390px;
+    line-height: 1.8;
+    font-family: "‚l‚r ‚oƒSƒVƒbƒN", Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3";
+}
+
+#beforeafter {
+    width:580px;
+}
+
+#beforeafter h2 {
+display:block;
+margin: 0 0 12px 0;
+padding-bottom:10px;
+}
+
+#beforeafter h3 {
+display:block;
+margin: 0 0 12px 0;
+font-size: 18px;
+color: #333333;
+border-bottom:1px solid #007bd0;
+padding-bottom:10px;
+}
+#beforeafter h3 span{
+margin: 0 16px 0 0;
+font-size: 14px;
+color: #007bd0;
+}
+
+#beforeafter .ls20{
+padding-left:20px;
+}
+#beforeafter .bs20{
+padding-bottom:20px;
+}
+
+#beforeafter .txtbox{
+padding: 20px 0 40px 30px !important;
+width: 500px;
+}
+
+/* button
+--------------------------------------------- */
+#beforeafter .btn01 { margin:0 0 20px 30px; width:500px}
+#beforeafter .btn01 a {
+    position: relative;
+    display: block;
+    padding: 15px 20px 15px 5px;
+    -webkit-background-size: 20px auto;
+    -moz-background-size: 20px auto;
+    background-size: 20px auto;
+    border: solid 1px #1557a7;
+    border-radius: 10px;
+    color: #1557a7;
+    font-weight: bold;
+    text-align: center;
+}
+#beforeafter .btn01 a:before {
+    right: 12px;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    border-radius: 50%;
+    background: #1557a7;
+}
+#beforeafter .btn01 a:after {
+    right: 20px;
+    width: 0;
+    height: 0;
+    margin-top: -4px;
+    border-style: solid;
+    border-width: 4px 0 4px 6px;
+    border-color: transparent transparent transparent #fff;
+}
+#beforeafter .btn01 a:before, .btn01 a:after { content: ""; position: absolute; top: 50%;}
+.marker_yellow_s {background: linear-gradient(transparent 60%, #ffff66 60%);}
+

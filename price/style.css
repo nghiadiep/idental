@@ -1,0 +1,183 @@
+/* CSS Document */
+.price_cont{
+	width: 560px;
+	margin: 0 0 20px 9px;
+	background: url(bg_price.gif) repeat-y;
+	text-align: center;
+}
+.img02{
+	width: 486px;
+	min-height: 390px;
+	background: url(img02_nbl.jpg) left top no-repeat;
+	margin: 0 auto 10px;
+}
+.img02 p{
+	position: relative;
+	top: 230px;
+	left:-10px;
+	width:290px;
+	font-size: 11px;
+	line-height: 150%;
+}
+.img04{
+	width: 500px;
+	height: 299px;
+	background: url(img04.jpg) left top no-repeat;
+	margin: 0 auto 10px;
+}
+.img04 p{
+	position: relative;
+	top: 205px;
+	left: 13px;
+	font-size: 11px;
+	line-height: 150%;
+}
+.img05{
+	width: 500px;
+	height: 299px;
+	background: url(img05.jpg) left top no-repeat;
+	margin: 0 auto 10px;
+}
+.img05 p{
+	position: relative;
+	top: 205px;
+	left: 13px;
+	font-size: 11px;
+	line-height: 150%;
+}
+.price_com{
+	width: 524px;
+	margin: 15px auto 10px;
+	background: url(bg_com_f.gif) bottom no-repeat;
+}
+.price_com .com_in{
+	background: url(bg_com_h.gif) top no-repeat;
+	padding: 15px 0;
+}
+.price_com02{
+	width: 442px;
+	margin: 15px auto 10px;
+	background: url(bg_com02_f.gif) bottom no-repeat;
+}
+.price_com02 .com_in{
+	background: url(bg_com02_h.gif) top no-repeat;
+	padding: 5px 0;
+}
+.price_com .com_in p{
+	padding: 0 25px;
+}
+.price_inner{
+	width: 499px;
+	background: url(bg_price_in.gif) repeat-y;
+	margin: 0 auto 10px;
+	border-bottom: #ddd;
+	text-align: center;
+}
+.price_inner ol,.price_inner p{
+	line-height: 180%;
+	font-size: 12px;
+	text-align: left;
+	padding: 0;
+}
+.price_inner ol{
+	margin: 10px 30px 10px 45px;
+}
+.price_inner p{
+	margin: 10px 25px;
+}
+.img{
+	margin: 0 auto 25px;
+	text-align: center;
+}
+.price_inner .img{
+	margin: 10px auto;
+	text-align: center;
+}
+.price_inner table{
+	width: 475px;
+	margin: 0 auto 10px;
+}
+.price_inner table th,.price_inner table td{
+	padding: 10px 0;
+	background: url(line_dot.gif) bottom repeat-x;
+	vertical-align: top;
+}
+.price_inner table td p{
+	font-size: 12px;
+	line-height: 180%;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+.price_inner table td p strong{
+	color: #c00;
+}
+.price_inner table th{
+	width: 175px;
+	text-align: center;
+}
+.price_inner table td{
+	padding: 5px;
+	text-align: left;
+}
+.att{
+	margin: 10px auto 20px;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	color: #c00;
+}
+
+.img_btn{
+	background: url(bg_btn.gif);
+	text-align: center;
+	padding: 10px 0 8px;
+}
+.img_btn p{
+	text-align: center;
+}
+.bold{
+	color: #c00;
+}
+
+/*角Ｒボックス*/
+.box_radius{
+	background:#E7EEEF;
+	margin:10px auto;
+	width:94%;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	}
+.box_radius p{
+	padding:10px 2px;
+	}
+	
+/*用語解説*/
+.exam_word{
+	padding:10px 20px;
+	text-align:left;
+	margin-bottom:20px;
+}
+.exam_word p{
+	padding:10px;
+	margin:0;
+	text-align:left;
+}
+.exam_word dt{
+	float:left;
+	display:block;
+	width:120px;
+	}
+.exam_word dd{
+	float:left;
+	display:block;
+	text-align:left;
+	margin:0 0 10px;
+	}
+.exam_word dd:before{
+	content:":"
+	}
+.exam_word dl:after{
+	clear:both;
+	}	

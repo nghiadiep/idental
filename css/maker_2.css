@@ -1,0 +1,113 @@
+/* maker_2 */
+
+#maker_2 {
+margin: 0 0 30px 0;
+}
+#maker_2 h2 {
+margin: 0 0 15px 0;
+width: 580px;
+height: 32px;
+}
+#maker_2 .inner {
+padding: 0 10px;
+width: 550px;
+}
+*html #maker_2 .inner {width: 570px;}
+#maker_2 h3 {
+margin: 0 0 10px 0;
+font-size: 14px;
+color: #666;
+}
+#maker_2 h4,#maker_2 .ttl {
+margin: 0 0 10px 0;
+padding: 6px;
+background: #7fbde7;
+font-size: 14px;
+color: #fff;
+}
+#maker_2 h5 {
+padding: 6px;
+background: #999;
+font-size: 13px;
+color: #fff;
+}
+#maker_2 ul.number {
+margin: 0 0 10px 0;
+padding: 0;
+}
+#maker_2 ul.number li{padding:0 0 0 23px;list-style:none;line-height:18px;}
+#maker_2 ul.number li.nb_1 {margin:0 0 5px 0;background:url(../imgs/common/nb_1.gif) no-repeat;0 center;}
+#maker_2 ul.number li.nb_2 {margin:0 0 5px 0;background:url(../imgs/common/nb_2.gif) no-repeat;0 center;}
+#maker_2 ul.number li.nb_3 {margin:0;background:url(../imgs/common/nb_3.gif) no-repeat;0 center;}
+
+#maker_2 .il_1{
+width:550px;
+height:175px;
+background:url(../imgs/maker_2/img01b.jpg) no-repeat;
+text-align: left;
+}
+#maker_2 .il_1 p{
+position: relative;
+top: 65px;
+left: 25px;
+color: #333;
+font-size: 11px;
+}
+
+#maker_2 .il_2{
+width:550px;
+height:117px;
+background:url(../imgs/maker_2/img02b.jpg) no-repeat;
+text-align: left;
+}
+#maker_2 .il_2 p{
+position: relative;
+top: 16px;
+left: 25px;
+color: #333;
+font-size: 11px;
+}
+
+#maker_2 .il_3{
+width:550px;
+height:103px;
+background:url(../imgs/maker_2/img07b.jpg) no-repeat;
+text-align: left;
+}
+#maker_2 .il_3 p{
+position: relative;
+top: 10px;
+left: 25px;
+color: #333;
+font-size: 11px;
+}
+
+#maker_2 .il_4{
+width:550px;
+height:175px;
+background:url(../imgs/maker_2/img08b.jpg) no-repeat;
+text-align: left;
+}
+#maker_2 .il_4 p{
+position: relative;
+top: 65px;
+left: 25px;
+color: #333;
+font-size: 11px;
+}
+
+#maker_2 table{
+width: 519px;
+margin: 18px 0;
+border-collapse: collapse;
+}
+#maker_2 table th{
+width: 161px;
+padding-right: 20px;
+}
+#maker_2 table td{
+padding: 0;
+font-size: 12px;
+}
+#maker_2 table a{
+}

@@ -1,0 +1,9 @@
+/* campaign */
+#campaign h2 {
+margin: 5px 0 15px;
+padding: 5px 0 0;
+}
+#campaign .inner p{
+	margin: 8px 10px 15px;
+	line-height: 180%;
+}

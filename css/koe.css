@@ -1,0 +1,75 @@
+/* koe */
+
+#koe {
+	margin: 0 0 30px 0;
+}
+#koe h2 {
+	margin: 10px 0;
+}
+#koe h3{
+	margin: 5px 0 0;
+}
+#koe p{
+	font-size: 12px;
+	color: #333;
+	text-align: left;
+	margin: 5px auto 10px;
+}
+#koe p img{
+	margin: 5px 0;
+}
+#koe .inner {
+	margin: 0 10px 20px;
+	width: 560px;
+}
+#koe ul{
+	list-style: none;
+}
+.voice{
+	background: #eff6f6;
+	width: 580px;
+	margin:0 0 20px;
+	padding: 20px 0 5px;
+}
+.voice table{
+	width: 570px;
+	margin: 0 auto;
+}
+.voice th{
+	padding: 0 10px 8px;
+	text-align: left;
+	vertical-align: top;
+}
+.voice td{
+	vertical-align: top;
+	text-align:left;
+	width: 50%;
+}
+
+#koe .ttl {
+margin: 0 0 10px 0;
+padding: 10px 0 20px 0;
+border-bottom: 1px dotted #ccc;
+font-size: 14px;
+color: #666;
+}
+#koe dl {
+margin: 0 0 15px 0;
+padding: 0 0 15px 0;
+border-bottom: 1px dotted #ccc;
+line-height: 150%;
+}
+#koe dl dt {
+float: left;
+margin: 0 10px 0 0;
+width: 50px;
+text-align: right;
+}
+#koe dl dt.c1 {color: #007bd0; font-weight: bold;}
+#koe dl dt.c2 {color: #f90; font-weight: bold;}
+#koe dl dd {
+float: left;
+margin: 0;
+padding: 0;
+width: 500px;
+}

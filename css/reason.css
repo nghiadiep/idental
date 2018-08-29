@@ -1,0 +1,22 @@
+/* Reason */
+
+	.ReasonPager,.ReasonInquiry{font-size: 0; margin: 0 auto; padding: 0; }
+	.ReasonContents {margin: 20px 0}
+	.ReasonPager >li,.ReasonInquiry >li{display: inline-block;list-style: none;}
+	.ReasonHeading{font-size: 34px;font-family: "ヒラギノ明朝 Pro W3","ＭＳ Ｐ明朝", "MS PMincho", "Hiragino Mincho Pro", "serif";line-height: 70px;letter-spacing: 5px; text-align: left;margin: 20px 0; padding-left: 12px;font-weight: 100;}
+	.ReasonHeading > span{color: #4473C4;}
+.ReasonHeadingSub{font-size: 20px;font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";padding-left: 12px;}
+	.ReasonNext{background: #F2F5FA;border: 10px solid #E7EDF7; width: 800px; margin: 20px auto;box-sizing: border-box;}
+	.ReasonNext > ul{font-size: 0; padding:0;}
+	.ReasonNext > ul > li{font-size: 14px;display: inline-block; padding: 10px;line-height: 24px;letter-spacing: 3px; width: 73%; box-sizing: border-box;text-align: left;vertical-align: middle;}
+	.ReasonNext > ul > li:last-child{text-align: right;width: 27%;}
+	.ReasonNext > ul > li > span{border-bottom: solid 3px #F8E92B;}
+	#Reason a:hover {opacity: 0.8;} 
+	.RasonDoctor {width: 800px;box-sizing: border-box;padding: 35px;font-size: 0; background: #E7EDF7; margin-bottom: 20px;}
+	.RasonDoctor > li:first-child{width: 25%;}
+	.RasonDoctor > li{width: 75%; display: inline-block; vertical-align: top; }
+	.RasonDoctor > li > ul{font-size: 0;text-align: left; padding: 0;}
+.RasonDoctor > li > ul > li{display: inline-block; background: #3E6CC2; padding: 5px; box-sizing: border-box; font-size: 16px;color: #FFF;margin-right: 5px;font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";}
+.RasonDoctor > li > ul > li.Green{background: #2E7409;}
+.RasonDoctorName{font-size: 20px;font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif"; margin-top: 10px;}
+.RasonDoctorDetail{font-size: 14px;word-break: break-all;text-align: left; margin-top: 10px;}

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* banner */
+#banner {
+    margin: 0 0 20px 0;
+}
+
+#banner div {
+    margin: 0 0 6px 0;
+}
+
+/* action_1 */
+
+#action_1 {
+    margin: 0 0 10px;
+    width: 200px;
+    background: url(../imgs/common/bg2_2.gif) bottom no-repeat;
+}
+
+#action_1 .btn {
+    margin: 0 0 5px;
+    padding: 40px 0 0 5px;
+}
+
+#action_1 .preorder {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 15px;
+    line-height: 16px;
+}
+
+#action_1 .preorder a {
+    color: #f90;
+}
+
+#action_1 .preorder span {
+    color: #f90;
+    margin: 10px 0 20px;
+}
+
+#action_1 .mailorder {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 0 0 0 24px;
+    background: url(../imgs/common/ic_2.gif) 4px 0 no-repeat;
+}
+#action_1 .bg {
+    background-image: url(../imgs/common/bg2_1.gif);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

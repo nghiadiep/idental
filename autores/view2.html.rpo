@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<STYLE TYPE="text/css">
+<!--
+a:link    {font-size: 10pt; text-decoration:none; color:#0000ff ;}
+a:visited {font-size: 10pt; text-decoration:none; color:#0000ff ;}
+a:active  {font-size: 10pt; text-decoration:none; color:#0000ff ;}
+a:hover   {font-size: 10pt; text-decoration:underline; color:#ff00ff ;}
+td        {font-size: 10pt;}
+b         {font-size: 10pt;}
+big         {font-size: 12pt;}
+span      {font-size: 10pt;line-height:12pt;}
+.style1 {	font-weight: bold;
+	font-size: 11pt;
+}
+-->
+</STYLE>
+<META name="GENERATOR" content="IBM HomePage Builder 2001 V5.0.3 for Windows">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+
+<script language="JavaScript" type="text/javascript">
+var xliscvcid = 3180;
+var xliscvoid = "XXXX";
+</script>
+<script language="JavaScript" src="https://eihwaz.xlisting.jp/cvlog.js">
+</script>
+<noscript>
+<img src="https://eihwaz.xlisting.jp/cvlog?cid=3180&oid=XXXX" width="1" height="1" />
+</noscript>
+
+<title>サンプルフォーム（Ａ－２）　入力確認</title>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+<table width="600" border="1" align="center" cellpadding="2" cellspacing="0" bordercolor="#FFFFFF">
+  <tr>
+    <td height="25" colspan="3" bordercolor="#000000" bgcolor="#b4e7f1"><center>
+      無料相談ありがとうございます。
+    </center>
+        <img src="./images/spacer.gif" width="14" height="1"></td>
+  </tr>
+  <tr>
+    <td colspan="3" height="1"><img src="./images/spacer.gif" width="1" height="1"><img src="./images/spacer.gif" width="14" height="1"></td>
+  </tr>
+</table>
+<table width="600" cellpadding="0" cellspacing="0" align="center" border="0">
+  <tr>
+    <td width="100%"><center>
+      <br>
+      <br>
+      $start$<br>
+      <br>
+      <br>
+    </center></td>
+    <td width="1"><img src="./images/spacer.gif" width="1" height="3"></td>
+  </tr>
+</table>
+<br>
+<table align="center">
+  <tr>
+    <td colspan="2" height="1">I(アイ)デンタルクリニック　E-mail: <A href="mailto:soudan@identalclinic.jp"><em>soudan@identalclinic.jp</em></A></td>
+  </tr>
+</table>
+</BODY></HTML>
+

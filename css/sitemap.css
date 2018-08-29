@@ -1,0 +1,31 @@
+/* sitemap */
+
+#sitemap {
+margin: 0 0 30px 0;
+}
+#sitemap h2 {
+margin: 0 0 15px 0;
+width: 580px;
+height: 32px;
+
+}
+#sitemap h2.ti_1 {background: url(../imgs/sitemap/ti_1.gif) no-repeat 0 0;}
+#sitemap h3 {
+margin: 0 0 10px 0;
+padding: 6px;
+background: #eee;
+font-size: 14px;
+color: #fff;
+}
+#sitemap .inner {
+padding: 0 10px;
+width: 560px;
+}
+#sitemap ul {
+margin: 0 0 20px 0;
+padding: 0 0 0 18px;
+line-height: 150%;
+}
+#sitemap ul li {
+margin: 0 0 5px 0;
+}

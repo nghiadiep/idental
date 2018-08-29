@@ -1,0 +1,202 @@
+/* map */
+
+#map {
+	margin: 0 0 30px 0;
+}
+#map h2 {
+}
+#map .inner{
+	width: 560px;
+	margin: 10px 10px 20px;
+}
+
+#map table{
+	width: 560px;
+	border-collapse: collapse;
+}
+#map table td,#map table th{
+	text-align: left;
+	vertical-align: top;
+}
+#map .map_info{
+	width: 97%;
+	border-top: 1px solid #ccc;
+}
+#map .map_info th,#map .map_info td{
+	font-size: 12px;
+	padding: 10px 5px;
+	line-height: 180%;
+	border-bottom: 1px solid #ccc;
+}
+#map .map_info th {
+	width: 5em;
+	background: #eee;
+	font-weight:normal;
+}
+.map_img{
+	width: 245px;
+	text-align: center;
+}
+.map_img img{
+	margin-bottom: 5px;
+}
+.map_img p{
+	text-align: center;
+	margin: 5px auto 0;
+}
+
+#map .doc_info{
+	width: 100%;
+	border-top: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+#map .doc_info th,#map .doc_info td{
+	font-size: 12px;
+	padding: 10px 8px;
+	line-height: 180%;
+	border-bottom: 1px solid #ccc;
+}
+#map .doc_info th {
+	width: 4em;
+	background: #eee;
+	font-weight:normal;
+	text-align: center;
+}
+.doc_img{
+	width: 160px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+#map h3 {
+margin: 0 0 10px 0;
+font-size: 14px;
+color: #666;
+}
+#map ul {
+margin: 0 0 20px 0;
+padding: 0 0 0 18px;
+line-height: 150%;
+}
+#map ul li {
+margin: 0 0 5px 0;
+}
+#map p {
+margin: 0 0 10px 0;
+}
+#map p span {color: #f00;}
+#map .ph_1 {
+float: left;
+margin: 0 10px 0 0;
+}
+.ph_1 p{width:150px;font-size:12px; text-align:left;font-size:11px;}
+.ph_1 p img{margin-bottom:3px;}
+.ph_1 p a:link,.ph_1 p a:visited{color:#333;text-decoration:none;}
+.ph_1 p a:hover,.ph_1 p a:active{color:#f33;text-decoration:underline;}
+
+#map dl.ph_2 {
+margin: 0 0 10px 0;
+padding: 0;
+}
+#map dl.ph_2 dt {
+float: left;
+margin: 0 10px 0 0;
+width: 275px;
+}
+#map dl.ph_2 dd {
+float: left;
+margin: 0;
+width: 275px;
+}
+#map dl.ph_3 {
+margin: 0;
+padding: 0;
+}
+#map dl.ph_3 dt {
+float: left;
+margin: 0 10px 0 0;
+width: 180px;
+}
+#map dl.ph_3 dd {
+float: left;
+margin: 0;
+width: 180px;
+}
+
+#map .map_guide{
+	width: 560px;
+}
+#map .map_guide img{
+	vertical-align: bottom;
+	margin-bottom: 5px;
+}
+#map .map_guide table{
+	width: 560px;
+	border-collapse: collapse;
+	margin: 0 0 10px;
+	float: none;
+}
+#map .map_guide td{
+	text-align: left;
+	padding: 0;
+	vertical-align: top;
+	border: none;
+}
+#map .map_guide td p{
+	margin: 0;
+	padding: 0;
+	width: 162px;
+	font-size: 12px;
+	line-height: 130%;
+	text-align: left;
+}
+
+#map .map_guide02{
+	width: 560px;
+}
+#map .map_guide02 table{
+	width: 560px;
+	border-collapse: collapse;
+	margin: 0 0 10px;
+	float: none;
+}
+#map .map_guide02 table th{
+	background: none;
+	width: 200px;
+	padding: 0;
+	text-align: center;
+	border: none;
+}
+#map .map_guide02 table td{
+	width: auto;
+	text-align: left;
+	padding: 0 10px;
+	vertical-align: middle;
+	border: none;
+	background: #efefef;
+}
+#map .map_guide02 table td p{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 150%;
+	text-align: left;
+}
+
+.map_btn{
+	text-align: center;
+	margin:0 auto;
+}
+.map_btn p{
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.map_m{
+	text-align: center;
+}
+.map_m p{
+	text-align: center;
+	margin: 3px auto;
+	
+}

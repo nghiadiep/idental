@@ -1,0 +1,198 @@
+/* kojyo */
+
+#kojyo {
+margin: 0 0 30px 0;
+}
+#kojyo h2 {
+margin: 0 0 15px 0;
+width: 580px;
+height: 32px;
+}
+#kojyo h2.ti_5 {margin: 0 0 25px 0;}
+#kojyo h3 {
+margin: 0 0 10px 0;
+font-size: 14px;
+color: #666;
+}
+#kojyo h4,#kojyo .ttl {
+margin: 0 0 10px 0;
+padding: 6px;
+background: #7fbde7;
+font-size: 14px;
+color: #fff;
+}
+#kojyo h6 {
+margin: 0 0 20px 0;
+font-size: 13px;
+font-weight: normal;
+text-align: right;
+}
+#kojyo .inner {
+padding: 0 10px;
+width: 560px;
+}
+*html #kojyo .inner {width: 580px;}
+#kojyo .box {
+margin: 0 0 20px 0;
+padding: 10px;
+border: 1px solid #ccc;
+}
+#kojyo ul.step {
+margin: 0 0 30px 0;
+padding: 0 10px;
+list-style: none;
+width: 560px;
+}
+#kojyo ul.step li {margin: 0;}
+#kojyo ul.step li.st_1 {padding: 0 0 0 130px;background: url(../imgs/kojyo/step.gif) no-repeat 0 0;height: 60px;line-height: 60px;}
+#kojyo ul.step li.st_2 {padding: 0 0 0 130px;background: url(../imgs/kojyo/step.gif) no-repeat 0 -60px;height: 60px;line-height: 60px;}
+#kojyo ul.step li.st_3 {padding: 0 0 0 130px;background: url(../imgs/kojyo/step.gif) no-repeat 0 -120px;height: 60px;line-height: 60px;}
+#kojyo ul.step li.st_4 {padding: 0 0 0 130px;background: url(../imgs/kojyo/step.gif) no-repeat 0 -180px;height: 60px;line-height: 60px;}
+#kojyo ul.step li.ar_1 { text-align:center;}
+#kojyo ul.link {
+margin: 0 0 30px 0;
+padding: 21px 0 0 0;
+border-top: 1px dotted #ccc;
+line-height: 150%;
+list-style: none;
+}
+#kojyo ul.link li {
+margin: 0 0 5px 0;
+padding: 0 0 0 18px;
+background: url(../imgs/common/ic_5.gif) no-repeat 0 center;
+}
+#kojyo ul.link li span {color: #999;}
+#kojyo ol {
+margin: 0 0 20px 0;
+padding: 0 0 0 18px;
+line-height: 150%;
+}
+#kojyo ol li {
+margin: 0 0 5px 0;
+}
+#kojyo .image {
+margin: 0 0 20px 0;
+text-align: center;
+}
+#kojyo .photo {
+float: left;
+margin: 0 10px 0 0;
+}
+#kojyo .banner {
+text-align: center;
+}
+#kojyo .banner img {margin: 0 0 5px 0;}
+#kojyo .banner a {text-decoration: none; border: none;}
+#kojyo .text {
+float: left;
+width: 430px;
+}
+#kojyo .price {
+margin: 0 0 5px 0;
+padding: 15px;
+background: #ffe;
+border: 2px solid #f90;
+text-align: center;
+line-height: 200%;
+}
+#kojyo .price span {font-size: 16px;font-weight: bold;color: #f30;}
+*html #kojyo form {padding: 0 55px;}
+#kojyo .input {width: 140px;}
+#kojyo .submit a {margin: 0 auto; margin-bottom: 30px; display: block; background: url(../imgs/kojyo/bt_1.gif) no-repeat 0 0; width: 200px;height: 30px; }
+#kojyo .submit a:hover {background: url(../imgs/kojyo/bt_1_on.gif) no-repeat 0 0;}
+#kojyo .submit a:hover img {visibility: hidden;}
+*html #kojyo .submit {padding: 0 105px;}
+#kojyo dl {
+margin: 0 auto;
+margin-bottom: 15px;
+width: 450px;
+font-size: 14px;
+line-height: 150%;
+}
+#kojyo dl dt {
+float: left;
+width: 260px;
+}
+#kojyo dl dd {
+float: left;
+margin: 0;
+width: 180px;
+}
+#kojyo dl dd span {color: #f30; font-size: 12px;}
+#kojyo p {
+margin: 0 0 20px 0;
+line-height: 150%;
+}
+#kojyo p.bg {padding: 10px; background: #eee;}
+#kojyo p span {color: #f30;}
+#kojyo table.tb_1 {
+margin: 0 0 10px 0;
+background: #ccc;
+width: 100%;
+line-height: 150%;
+}
+#kojyo table.tb_1 th {
+padding: 6px;
+background: #ebf5ff;
+width: 70%;
+font-size: 14px;
+white-space: nowrap;
+font-weight: normal;
+text-align: left;
+}
+#kojyo table.tb_1 td {
+padding: 6px;
+background: #fff;
+width: 30%;
+font-size: 16px;
+color: #f30;
+font-weight: bold;
+text-align: right;
+}
+#kojyo table.tb_2 {
+margin: 0 0 20px 0;
+background: #ccc;
+width: 100%;
+line-height: 150%;
+}
+#kojyo table.tb_2 th {
+padding: 6px;
+background: #ebf5ff;
+width: 5%;
+font-size: 13px;
+white-space: nowrap;
+font-weight: normal;
+text-align: left;
+}
+#kojyo table.tb_2 td {
+padding: 6px;
+background: #fff;
+width: 95%;
+font-size: 13px;
+}
+#kojyo table.tb_3 {
+margin: 0 0 5px 0;
+background: #ccc;
+width: 100%;
+line-height: 150%;
+}
+#kojyo table.tb_3 th {
+padding: 6px;
+background: #ebf5ff;
+font-size: 13px;
+font-weight: normal;
+text-align: left;
+}
+#kojyo table.tb_3 td {
+padding: 6px;
+background: #fff;
+font-size: 13px;
+}
+#kojyo .ar_2 {
+margin: 0 auto;
+background: url(../imgs/kojyo/ar_2.gif) no-repeat center 0;
+width: 560px;
+height: 40px;
+font-size: 0;
+
+}

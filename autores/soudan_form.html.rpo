@@ -1,0 +1,186 @@
+<html lang="ja">
+
+	<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>I(アイ)デンタルクリニック無料相談メールフォーム</title>
+</head>
+
+	<body bgcolor="#ffffff" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">
+		<center>
+			<table width="582" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><img src="../hiro-dent2.com/images/header.gif" alt="" height="91" width="770" border="0"><br>
+					  <font size="2"><a href="http://www.hiro-dent2.com/">&gt;&gt;ＴＯＰへ</a></font><br>
+						<br>
+						<table cellpadding="5" cellspacing="0" width="768">
+							<tr>
+								<td bgcolor="#ccffcc" height="40" style="font-size: 13px; font-weight: bold; color: black;"><font size="4">I(アイ)デンタルクリニック無料相談メールフォーム</font></td>
+							</tr>
+						</table>
+						<br>
+						<table width="597" border="0" cellspacing="0" cellpadding="0" align="center">
+							<tr>
+								<td>・カウンセリングで来院される際は、手帳など日程の判るものをご持参頂きますと、治療のご予約がスムースになります。<br>
+									<br>
+									・来院の前にまずはメールにて無料相談をされたい方は、下記フォームにご記入し、送信ボタンを押してください。<br>
+									<br>
+								  ・インプラントの治療期間やプロセス、費用については「<a href="http://www.hiro-dent2.com/faq.html" target="_blank">よくあるご質問</a>」のページにもまとめてあります。ご参考になさってください。<br>
+									<br>
+									・原則として４８時間以内に返信します。（休日を除く）<br>
+									<!--	&nbsp;12月29日-1月6日はお休みさせていただきます。その間にいただいたメールには1月7日以降返信いたします。<br>--><br>
+									・フォームから送信できない場合は、<a href="mailto:soudan@identalclinic.jp">soudan@identalclinic.jp</a>に直接メールをお送りください。<br>
+									<br>
+								  ・個人情報の取り扱いについては、<a href="http://www.hiro-dent2.com/privacy.html" target="_blank">こちら</a>をご一読ください。<br>
+									<br>
+									<br>
+									<b><font color="red">※</font>は必須です。</b><br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</center>
+		<form method="post" action="https://sv60.wadax.ne.jp/~hiro-dent-com/autores/form.cgi">
+			<table width="600" border="0" cellspacing="1" cellpadding="5" align="center">
+				<tr bgcolor="#ffffff" valign="top">
+					<td>
+						<table border="1" cellspacing="1" cellpadding="5" align="center" width="100%" bordercolor="#996666">
+							<tr>
+								<td nowrap><b><font color="red">※</font>お名前</b></td>
+								<td><input type="text" name="お名前">　例：山田太郎</td>
+							</tr>
+							<tr>
+								<td nowrap><b>フリガナ</b></td>
+								<td><input type="text" name="フリガナ" size="30"></td>
+							</tr>
+							<tr>
+								<td nowrap><b>性別</b></td>
+								<td>男性<input type="radio" name="性別" value="男性">　　女性<input type="radio" name="性別" value="女性"></td>
+							</tr>
+														<tr>
+								<td nowrap><b>ご年齢</b></td>
+								<td>20代以下<input type="radio" name="ご年齢" value="20代以下">　　30代<input type="radio" name="ご年齢" value="30代">　　40代<input type="radio" name="ご年齢" value="40代">　　50代<input type="radio" name="ご年齢" value="50代">　　60代<input type="radio" name="ご年齢" value="60代">　　70代<input type="radio" name="ご年齢" value="70代">　　80代以上<input type="radio" name="ご年齢" value="80代以上">
+								
+								
+								
+								</td>
+							</tr>	
+							<tr>
+								<td nowrap><b>ご職業</b></td>
+								<td><select name="ご職業" size="1">
+										<option selected>選択してください</option>
+										<option value="学生">学生</option>
+										<option value="会社員">会社員</option>
+										<option value="専門職">専門職</option>
+										<option value="派遣社員">派遣社員</option>
+										<option value="パート・アルバイト">パート・アルバイト</option>
+										<option value="自営業">自営業</option>
+										<option value="専業主婦">専業主婦</option>
+										<option value="無職・休職中">無職・休職中</option>
+									</select></td>
+							</tr>
+<!--							<tr>
+								<td nowrap><b>相談希望分野</b></td>
+								<td>インプラント<input type="radio" name="治療内容" value="インプラント">　　審美<input type="radio" name="治療内容" value="審美歯科">　　両方<input type="radio" name="治療内容" value="インプラント＆審美歯科"></td>
+							</tr>-->
+							<tr>
+								<td nowrap><b><font color="red">※</font>郵便番号</b></td>
+								<td><input type="text" name="郵便番号" size="10">　例：101-0047</td>
+							</tr>
+							<tr>
+								<td nowrap><b><font color="red">※</font>都道府県</b></td>
+								<td><select name="都道府県">
+										<option value="" selected>都道府県の選択</option>
+										<option value="北海道">北海道</option>
+										<option value="青森県">青森県</option>
+										<option value="岩手県">岩手県</option>
+										<option value="宮城県">宮城県</option>
+										<option value="秋田県">秋田県</option>
+										<option value="山形県">山形県</option>
+										<option value="福島県">福島県</option>
+										<option value="茨城県">茨城県</option>
+										<option value="栃木県">栃木県</option>
+										<option value="群馬県">群馬県</option>
+										<option value="埼玉県">埼玉県</option>
+										<option value="千葉県">千葉県</option>
+										<option value="東京都">東京都</option>
+										<option value="神奈川県">神奈川県</option>
+										<option value="新潟県">新潟県</option>
+										<option value="富山県">富山県</option>
+										<option value="石川県">石川県</option>
+										<option value="福井県">福井県</option>
+										<option value="山梨県">山梨県</option>
+										<option value="長野県">長野県</option>
+										<option value="岐阜県">岐阜県</option>
+										<option value="静岡県">静岡県</option>
+										<option value="愛知県">愛知県</option>
+										<option value="三重県">三重県</option>
+										<option value="滋賀県">滋賀県</option>
+										<option value="京都府">京都府</option>
+										<option value="大阪府">大阪府</option>
+										<option value="兵庫県">兵庫県</option>
+										<option value="奈良県">奈良県</option>
+										<option value="和歌山県">和歌山県</option>
+										<option value="鳥取県">鳥取県</option>
+										<option value="島根県">島根県</option>
+										<option value="岡山県">岡山県</option>
+										<option value="広島県">広島県</option>
+										<option value="山口県">山口県</option>
+										<option value="徳島県">徳島県</option>
+										<option value="香川県">香川県</option>
+										<option value="愛媛県">愛媛県</option>
+										<option value="高知県">高知県</option>
+										<option value="福岡県">福岡県</option>
+										<option value="佐賀県">佐賀県</option>
+										<option value="長崎県">長崎県</option>
+										<option value="熊本県">熊本県</option>
+										<option value="大分県">大分県</option>
+										<option value="宮崎県">宮崎県</option>
+										<option value="鹿児島県">鹿児島県</option>
+										<option value="沖縄県">沖縄県</option>
+										<option value="日本国外">日本国外</option>
+									</select>　ご選択下さい。</td>
+							</tr>
+							<tr>
+								<td nowrap><b><font color="red">※</font>電話番号</b></td>
+								<td><input type="text" name="電話番号" size="20">　例：03-5289-8484</td>
+							</tr>
+							<tr>
+								<td nowrap><b><font color="red">※</font>E-Mail</b></td>
+								<td><input type="text" name="email" size="30">　半角<br>
+								</td>
+							</tr>
+							<tr>
+								<td nowrap><b>気になるお口の場所</b></td>
+								<td><input type="checkbox" name="部位" value="前歯">前歯　　<input type="checkbox" name="部位" value="奥歯">奥歯
+									<p><input type="checkbox" name="部位" value="右側">右　　　<input type="checkbox" name="部位" value="左側">左</p>
+									<p><input type="checkbox" name="部位" value="上顎">上　　　<input type="checkbox" name="部位" value="下顎">下</p>
+									<p></p>
+								</td>
+							</tr>
+							<tr>
+								<td nowrap valign="top"><b>ご相談内容</b></td>
+								<td><textarea name="コメント" cols="50" rows="14"></textarea><br>
+								</td>
+							</tr>
+						</table>
+						<br>
+						<table border="0" cellspacing="0" cellpadding="3" align="center" width="100%">
+							<tr bgcolor="#ccffcc" align="center">
+								<td colspan="2" height="37"><input type="hidden" name="id" value="A-2"> <input type="hidden" name="mode" value="view"> <input type="submit" value="送信"> <input type="reset" value="リセット"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+		<br>
+		<br>
+		<center></center>
+	</body>
+
+</html>
+
+

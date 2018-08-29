@@ -1,0 +1,173 @@
+/* body */
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-size: 13px;
+    color: #333333;
+}
+/* default */
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+p {
+    margin: 0;
+    text-align: justify;
+    text-justify: distribute;
+    line-height: 150%;
+}
+ul {
+    margin: 0;
+}
+dl {
+    margin: 0;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+.bold {
+    font-weight: bold;
+}
+address {
+    font-style: normal;
+}
+/* link */
+a {}
+a:link {
+    color: #007bd0;
+}
+a:visited {
+    color: #007bd0;
+}
+a:hover {
+    color: #007bd0;
+    text-decoration: none;
+    border: none;
+}
+a.line {
+    text-decoration: none;
+    border-bottom: 1px solid #007bd0;
+}
+a:hover.line {
+    text-decoration: none;
+    border: none;
+}
+/* clear */
+.cl_fix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.cl_fix {
+    min-height: 1px;
+}
+/*html .cl_fix {
+    height: 1px;*/
+    /*\*/
+    /*/ height: auto; overflow: hidden; /**/
+/*}*/
+.cl {
+    clear: both;
+}
+.cl_1 {
+    clear: both;
+    height: 1px;
+}
+.cl_10 {
+    clear: both;
+    height: 10px;
+}
+.cl_20 {
+    clear: both;
+    height: 20px;
+}
+.cl_30 {
+    clear: both;
+    height: 30px;
+}
+/* float */
+.fl_l {
+    float: left;
+}
+.fl_r {
+    float: right;
+}
+/* none */
+.td_n {
+    text-decoration: none;
+}
+.di_n {
+    display: none;
+}
+/* align */
+.ta_l {
+    text-align: left;
+}
+.ta_c {
+    text-align: center;
+}
+.ta_r {
+    text-align: right;
+}
+.middle * {
+    vertical-align: middle;
+}
+*, *:before, *:after {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* base */
+#base {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+/* bar */
+#bar {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    background: #f5f5f5;
+    h2 {
+        margin: 0 auto;
+        padding: 8px 0;
+        width: 800px;
+        font-size: 13px;
+        line-height: 14px;
+        font-weight: normal;
+        text-align: left;
+    }
+}
+/* content */
+#content {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 800px;
+    &.dot {
+        clear: both;
+        margin: 30px 0 30px 0;
+        background: url(../imgs/common/dot_1.gif) no-repeat 0 0;
+    }
+}
+/* left */
+#left {
+    float: left;
+    margin: 0 10px 0 0;
+    width: calc(100% - 210px);
+    text-align: left;
+}
+/* right */
+#right {
+    float: left;
+    margin: 0;
+    width: 200px;
+    text-align: left;
+}

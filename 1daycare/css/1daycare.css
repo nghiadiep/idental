@@ -1,0 +1,93 @@
+/* 1daycare */
+a:hover,button:hover{opacity: 0.8;cursor: pointer;}
+.tac{text-align: center;}
+.cfx:after{  content: ".";   display: block;   height: 0;   font-size:0;  clear: both;   visibility:hidden;}	
+.bg3 {
+	/*background-image: linear-gradient(transparent 95%, rgba(0, 0, 0, 0.1) 5%), linear-gradient(90deg, transparent 95%, rgba(0, 0, 0, 0.1) 5%);
+	background-size: 40px 40px;
+	background-repeat: repeat;*/
+}
+.TestWrap {
+	width: 800px;
+	min-height: 300px;
+	margin: 0 auto;
+	padding-bottom: 0px;
+}
+
+.TestWrap > h2{text-align: center;font-size: 28px;font-weight: bold;line-height: 46px;margin-bottom: 30px;}
+.TestWrap > h2 > span{border-bottom: solid 5px #F8E92B;}
+.TestWrap > h2 > span.large{font-size: 42px;}
+	
+/*歯周病タイプ展開部分*/	
+.TeethType{font-size: 0; vertical-align: top; width: 640px; margin: 0 auto;min-height: 230px;}
+.TeethType > li{display: inline-block;width: 30%; vertical-align: top;}
+.TeethType > li:not(:last-child){margin-right: 2%;}		
+.menu {max-width: 400px;margin: 0 auto;padding: 0;}
+labe {  display: block;  background: #FFFFFF;font-size: 16px;padding: 5% 0; text-align: center;vertical-align: middle;	cursor :pointer;font-weight: bold;}
+label > img{vertical-align: sub;}
+	label > img:hover{opacity: 0.8;}	
+input {	display: none;}
+.menu ul {	margin: 0;	padding: 0;  background :#FFFFFF;	list-style: none;}
+/*.menu li {  max-height: 0;  overflow-y: hidden;  -webkit-transition: all 0.5s;	-moz-transition: all 0.5s;	-ms-transition: all 0.5s;	-o-transition: all 0.5s;	transition: all 0.5s;}*/
+.menu li img{width: 100%;}
+#links02 li,#links03 li,#links04 li	{background: #FFFFFF;text-align:center;font-size: 12px;}
+#links02 li	> div,#links03 li > div,#links04 li	> div{text-align: left; box-sizing: border-box;padding: 6% 4%;line-height: 18px;}	
+/*#menu_bar02:checked ~ #links02 li,#menu_bar03:checked ~ #links03 li,#menu_bar04:checked ~ #links04 li {	max-height: 300px; opacity: 1;}	*/
+/*歯周病タイプ展開部分*/
+
+/*追加*/
+.menu2 {max-width: 400px;margin: 0 auto;padding: 0;}
+label {  display: block;  background: #E5ECF7;font-size: 16px;padding: 5% 0; text-align: center;vertical-align: middle;	font-weight: bold;border-radius: 15px;margin-bottom: 10px; }
+label > img{vertical-align: sub;}
+	label > img:hover{opacity: 0.8;}	
+input {	display: none;}
+.menu2 ul {	margin: 0;	padding: 0;  background :#FFFFFF;	list-style: none;}
+.menu2 li img{width: 100%;}
+#links02 li,#links03 li,#links04 li	{background: #FFFFFF;text-align:center;font-size: 12px;}
+#links02 li	> div,#links03 li > div,#links04 li	> div{text-align: left; box-sizing: border-box;padding: 6% 4%;line-height: 18px;}
+/**/
+	
+.TestWrap > h3{width: 640px;text-align: center; box-sizing: border-box;padding: 2%; margin: 20px auto;font-size: 24px;line-height: 32px;background: #E5ECF7;border-radius: 50px;}	
+.TestWrap > h3 > span,.TestWrap > .onedaycareDetail > span{color: #D64C5F;}
+.TestWrap > .onedaycareDetail{width: 640px;box-sizing: border-box;padding: 2%; margin: 20px auto;font-size: 18px;line-height: 32px;}
+.Line{border-bottom: 5px solid #F8E92B;}	
+.TestWrap > ul.onedaycareDetail{font-size: 0;}
+.TestWrap > ul.onedaycareDetail > li{display: inline-block;font-size: 18px;line-height: 32px;vertical-align: top;}
+.TestWrap > ul.onedaycareDetail > li:first-child{width: 70%;}
+.TestWrap > ul.onedaycareDetail > li:last-child{width: 30%;}
+.TestWrap > ul.onedaycareDetail > li > img{width: 100%;}
+
+.TestWrap > .onedaycareDetail_2{width: 640px;text-align: center; box-sizing: border-box;padding: 2%; margin: 20px auto;font-size: 32px;line-height: 42px;background: #E3DCDC;border-radius: 10px;font-weight: bold;}
+.TestWrap > .onedaycareDetail_2 > span{font-size: 18px;margin: 10px 0;font-weight: bold;}	
+.TestWrap > .onedaycareDetail_2 > span.t1{font-size: 12px;}	
+	
+.TestWrap > .onedaycareDetail_3{width: 640px;text-align: center; box-sizing: border-box;padding: 2%; margin: 20px auto;font-size: 32px;line-height: 42px;font-weight: bold;}
+.TestWrap > .onedaycareDetail_3 > span{color:#D64C5F;}
+	
+.onedaycareDetail_4{font-size: 0;margin: 0 auto;width: 640px;}
+.onedaycareDetail_4 > li{width: 180px; height: 180px; background: url(http://www.identalclinic.jp/imgs/1daycare/1daycare_listbg1.png);display: inline-block;font-size: 20px;box-sizing: border-box;vertical-align: middle;text-align: center;line-height: 34px;font-weight: bold;}
+.onedaycareDetail_4 > li:not(:last-child){margin-right: 5%;}
+.onedaycareDetail_4 > li:first-child{padding-top: 9%;}
+.onedaycareDetail_4 > li:not(:first-child){padding-top: 6%;}
+	
+.TestWrap > .onedaycareDetail_5{width: 640px;text-align: center; box-sizing: border-box;padding: 2%; margin: 20px auto;font-size: 24px;line-height: 42px;border-radius: 10px;font-weight: bold;border: 10px solid #FBB03B;}	
+.TestWrap > .onedaycareDetail_5 >span{color:#D64C5F;font-weight: bold; font-size: 32px;}
+.TestWrap > .onedaycareDetail_5 >span.t2{font-size: 40px;}	
+
+.onedaycareDetail_6{font-size: 0;margin: 0 auto;width: 640px;}
+.onedaycareDetail_6 > li{display: inline-block;font-size: 20px;box-sizing: border-box;vertical-align: middle;text-align: left;line-height: 26px;font-weight: bold;}
+.onedaycareDetail_6 > li:first-child{width: 80px;}
+.onedaycareDetail_6 > li > ul{padding: 0;}	
+.onedaycareDetail_6 > li > ul > li{list-style: none;margin-bottom: 20px;}	
+.onedaycareDetail_6 > li > ul > li >img,.onedaycareDetail_6 > li > ul > li >div{float: left;color: #3E6CC2;font-weight: bold;}
+.onedaycareDetail_6 > li > ul > li >div{margin-left: 10px;}	
+.onedaycareDetail_6 > li > ul > li >div > span{font-size: 12px;}
+.onedaycareDetail > span.t3{font-size: 32px;font-weight: bold; color: #000;}	
+.onedaycareDetail > span.t4{font-size: 14px;color: #000;font-weight: bold;}
+	
+.info{width: 800px;margin: 20px auto; background: #E5ECF7;border-radius: 15px;padding: 2%;box-sizing: border-box;text-align: center;}
+	.info p{text-align: center; margin-bottom: 20px;font-size: 20px;font-weight: bold;color: #3E6CC2;letter-spacing: 3px;}	
+.info > ul{font-size: 0;padding: 0; }
+.info > ul > li{display: inline-block; width: 48%;vertical-align: top;}
+.info > ul > li > a >img,.info > ul > li > img{width: 100%;}
+.info > ul > li:first-child{margin-right: 1%; padding-right: 1%; border-right: 1px solid #333333;}

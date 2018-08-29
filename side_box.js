@@ -1,0 +1,41 @@
+document.write('<div id="side_box">')
+document.write('<div class="info">')
+document.write('<h2>インフォメーション</h2>')
+document.write('<p><a href="http://www.identalclinic.jp/counselingEntry2/mail.html"><img src="http://www.identalclinic.jp/img/banner_counseling.jpg" alt="インプラント治療のカウンセリング予約フォームはコチラ。" /></a></p>')
+document.write('<p><a href="http://www.identalclinic.jp/map_s.html"><img src="http://www.identalclinic.jp/img/access_s.gif" width="233" height="164" alt="インプラント治療が東京、新宿駅から徒歩2分で可能です。" /></a></p>')
+document.write('<p><a href="http://www.identalclinic.jp/map_k.html"><img src="http://www.identalclinic.jp/img/access_k.gif" width="233" height="164" alt="インプラント治療が東京、神田駅から徒歩30秒で可能です。" /></a></p>')
+document.write('<p class="faq_banner"><a href="http://www.identalclinic.jp/faq.html">インプラント治療・手術のよくある質問</a></p>')
+document.write('</div>')
+
+
+document.write('<div class="clinic">')
+document.write('<h3>会社情報：アイデンタルクリニック| インプラント神田駅1分、新宿駅2分、横浜駅１分。1本70,000円、№1の症例数、CT完全無料、 カウンセリング無料、返金保証、麻酔専門医常駐、全身管理で安心</h3>')
+
+document.write('<p>〒160-0022<br />')
+document.write('東京都新宿区新宿4-2-16　<br />')
+document.write('パシフィックマークス新宿<br />')
+document.write('サウスゲート4階<br />')
+document.write('<br />')
+document.write('平日：9:30～18:30<br />')
+document.write('土曜日：9:30～17:30<br />')
+document.write('日曜、祝日：休診<br />')
+
+document.write('<br />')
+
+document.write('〒101-0047<br />')
+document.write('東京都千代田区内神田3-21-6<br />')
+document.write('山喜ビル2階<br />')
+document.write('<br />')
+document.write('平日：9:30～18:30<br />')
+document.write('土曜日：9:30～17:30<br />')
+document.write('日曜、祝日：休診<br />')
+
+document.write('<br />')
+document.write('Tel：0120-848-479<br />')
+document.write('  （月曜～金曜 9:30-18:30）</p>')
+
+document.write('</div>')
+document.write('<div class="card">')
+document.write('<p>VISA、JCB、マスター、アメックス、ダイナーの５種類のカードが利用可能です。</p>')
+document.write('</div>')
+document.write('</div>')

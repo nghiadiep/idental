@@ -1,0 +1,55 @@
+/* nagare */
+
+#nagare {
+	margin: 0 0 30px 0;
+}
+#nagare h2 {
+	margin: 0 0 15px 0;
+}
+#nagare .inner {
+	width: 580px;
+}
+#nagare h3 {
+	margin: 0 0 20px;
+}
+#nagare .step {
+	margin: 0 0 20px 0;
+}
+#nagare .box {
+	margin: 0 0 20px 0;
+	padding: 5px 0 0 0;
+	background: url(../imgs/nagare/fr_1_m.gif) repeat-y 0 0;
+}
+#nagare .box blockquote {margin: 0; padding: 0; background: url(../imgs/nagare/fr_1_b.gif) no-repeat 0 0; height: 15px; font-size: 0; }
+#nagare .space {
+padding: 0 15px;
+}
+#nagare table{
+	width: 580px;
+	margin: 0 auto 25px;
+	border-collapse: collapse;
+}
+#nagare td,#nagare th{
+	vertical-align: top;
+}
+#nagare th{
+	width: 185px;
+	text-align: left;
+}
+#nagare td{
+	text-align: left;
+	font-size: 12px;
+	line-height: 180%;
+	color: #333;
+}
+#nagare td .bold{
+	color: #06c;
+}
+#nagare a:link,#nagare a:visited{
+	color: #393;
+	text-decoration: underline;
+}
+#nagare a:hover,#nagare a:active{
+	color: #f33;
+	text-decoration: underline;
+}

@@ -1,0 +1,182 @@
+/* ryoukin */
+
+#ryoukin {
+margin: 0 0 30px 0;
+}
+#ryoukin h2 {
+margin: 0 0 15px 0;
+}
+#ryoukin .wrapper p{
+	line-height: 180%;
+}
+
+#ryoukin .inner {
+	padding: 0 10px;
+	width: 560px;
+}
+*html #ryoukin .inner {width: 580px;}
+
+#ryoukin .maker_inner {
+padding: 0 15px;
+width: 550px;
+}
+*html #ryoukin .maker_inner {width: 580px;}
+
+#ryoukin h3 {
+margin: 0 0 10px 0;
+font-size: 14px;
+color: #666;
+}
+#ryoukin .wrapper h3 {
+margin: 0;
+}
+
+#ryoukin h4 {
+margin: 0 0 10px 0;
+padding: 6px;
+background: #7fbde7;
+font-size: 14px;
+color: #fff;
+}
+#ryoukin h5 {
+padding: 6px;
+background: #999;
+font-size: 13px;
+color: #fff;
+}
+#ryoukin ul.number {
+margin: 0 0 10px 0;
+padding: 0;
+}
+#ryoukin ul.number li{padding:0 0 0 23px;list-style:none;line-height:18px;}
+#ryoukin ul.number li.nb_1 {margin:0 0 5px 0;background:url(../imgs/common/nb_1.gif) no-repeat;0 center;}
+#ryoukin ul.number li.nb_2 {margin:0 0 5px 0;background:url(../imgs/common/nb_2.gif) no-repeat;0 center;}
+#ryoukin ul.number li.nb_3 {margin:0;background:url(../imgs/common/nb_3.gif) no-repeat;0 center;}
+#ryoukin .il_1 {
+margin: 0 0 10px 0;
+text-align:center;
+}
+
+.maker_inner .il_1{
+width:550px;
+height:175px;
+background:url(../imgs/maker_2/img01b.jpg) no-repeat;
+text-align: left;
+}
+.maker_inner .il_1 p{
+width:500px;
+position: relative;
+top: 65px;
+left: 25px;
+color: #333;
+font-size: 11px;
+}
+.maker_inner .il_2{
+width:550px;
+float: none;
+margin: 0 0 20px;
+height:117px;
+background:url(../imgs/maker_2/img02b.jpg) no-repeat;
+text-align: left;
+}
+.maker_inner .il_2 p{
+width:500px;
+position: relative;
+top: 16px;
+left: 25px;
+color: #333;
+font-size: 11px;
+}
+
+#ryoukin .il_3 {
+float: left;
+}
+#ryoukin .ex_1 {
+margin: 0 0 10px 0;
+text-align: center;
+}
+#ryoukin p {
+margin: 0 0 10px 0;
+}
+#ryoukin p span{color:#666;}
+#ryoukin p.tx_1 {
+margin: 0 0 30px 0;
+}
+#ryoukin p.tx_2 {
+float: left;
+margin: 0;
+width: 250px;
+}
+#ryoukin p.tx_3 {
+margin: 0;
+font-size: 11px;
+}
+#ryoukin p.tx_4 {margin:0;text-align:right;}
+#ryoukin table {
+margin: 0 0 10px 0;
+background: #ccc;
+line-height: 150%;
+}
+#ryoukin p.tx_5 {
+float: left;
+margin: 0 10px 0 0;
+width: 250px;
+}
+#ryoukin table th {
+padding: 6px;
+background: #ebf5ff;
+font-size: 13px;
+white-space: nowrap;
+font-weight: normal;
+text-align: left;
+}
+#ryoukin table td {
+padding: 6px;
+background: #fff;
+font-size: 13px;
+}
+#ryoukin table td.name {
+background: #eee;
+white-space: nowrap;
+}
+#ryoukin table td span {
+color: #f00;
+}
+#ryoukin .le_1 {
+float: left;
+margin: 0 10px 0 0;
+width: 275px;
+}
+#ryoukin .ri_1 {
+float: left;
+margin: 0;
+width: 275px;
+}
+#ryoukin .le_2 {
+float: left;
+margin: 0 10px 0 0;
+width: 275px;
+}
+#ryoukin .ri_2 {
+float: left;
+margin: 0;
+width: 245px;
+}
+#ryoukin .fr_1 {
+padding: 14px;
+border: 1px solid #999;
+width: 245px;
+}
+*html #ryoukin .fr_1 {padding: 14px;}
+#ryoukin .fr_2 {
+padding: 14px;
+border: 1px solid #999;
+width: 530px;
+}
+*html #ryoukin .fr_2 {width: 560px;}
+#ryoukin .fr_3 {
+padding: 14px;
+border: 1px solid #7fbde7;
+width: 530px;
+}
+*html #ryoukin .fr_3 {width: 560px;}

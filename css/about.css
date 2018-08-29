@@ -1,0 +1,108 @@
+/* about */
+#about{margin:0 auto 30px;width:800px;}
+.cont{width: 800px;background:#d1eaf1;padding: 10px 0;}
+#about .inner{width: 780px;background: #fff url(../imgs/about/cont_head.gif) top no-repeat;margin:0 auto 12px;}
+.inner .foot{width: 780px;background: url(../imgs/about/cont_foot.gif) bottom no-repeat;padding: 20px 0;}
+.inner .w740{width: 740px;margin:0 auto;}
+
+#about h2{margin:0 auto 15px;}
+#about h3{margin:0 auto 15px;}
+
+.frame01{
+	width: 750px;
+}
+.frame01 .left{
+	float: left;
+	width: 540px;
+	text-align: left;
+}
+#about p{
+	line-height: 1.8;
+	font-size: 12px;
+}
+.frame01 .right{
+	float: right;
+	width: 200px;
+	text-align: center;
+}
+
+#about div.po_1{margin:0 auto 30px;text-align:center;}
+#about div.po_2{margin:0 auto 30px;text-align:center;}
+#about div.po_3{margin:0 auto 30px;text-align:center;}
+#about div.po_4{margin:0 auto 30px;text-align:center;}
+#about div.po_5{margin:0 auto 30px;text-align:center;}
+#about div.po_6{margin:0 auto 30px;text-align:center;}
+#about div.po_7{margin:0 auto 30px;text-align:center;}
+
+#about div.il_2{margin:0 auto;margin-bottom:30px;width:430px;height:150px;}
+#about div.il_3{margin:0 0 20px 0;padding:15px 15px 15px 180px;background:url(../imgs/about/il_3.gif) no-repeat 0 0;width:365px;height:113px;line-height:150%;}
+
+#about div.il_4{float:left;width:180px;height:143px;}
+#about div.il_5{margin:0 auto;margin-bottom:30px;width:434px;height:140px;}
+
+#about .box{margin:0 0 20px 0;padding:10px;border:1px solid #ccc;}
+
+#about p.tx_3{margin:0 0 30px 0;text-align:right;}
+#about p.tx_4{float:left;margin:0;width:550px;;}
+#about p span{margin:0 2px;padding:3px;background:#fff5e1;color:#f60;font-weight:bold;}
+#about .bold{color:#000;}
+
+#about div.ph_1{float:left;margin:0 10px 0 0;width:178px;height:178px;border:1px solid #ccc;}
+
+#about ul.link{margin:0 0 30px 0;padding:21px 0 0 0;border-top:1px dotted #ccc;line-height:150%;list-style:none;}
+#about ul.link li{margin:0 0 5px 0;padding:0 0 0 18px;background:url(../imgs/common/ic_5.gif) no-repeat 0 center;}
+#about ul.link li span{color:#999;}
+
+#about table.tb_1{margin:0 auto;margin-bottom:30px;border-collapse:collapse;width:540px;}
+#about table.tb_1 thead th{padding:10px;border:1px solid #ccc;}
+#about table.tb_1 thead th.il_1{border:1px solid #ccc;width:100px;height:100px;}
+#about table.tb_1 thead th.il_2{border:1px solid #ccc;width:100px;height:100px;}
+#about table.tb_1 thead th.il_3{border:1px solid #ccc;width:100px;height:100px;}
+
+#about table.tb_1 tbody th{padding:10px;background:url(../imgs/about/bg_1.gif) repeat-x 0 0;border:1px solid #ccc;font-size:14px;font-weight:normal;white-space:nowrap;}
+#about table.tb_1 td{padding:10px;border:1px solid #ccc;}
+#about table.tb_1 td.ic_1{height:20px;text-align:center;}
+#about table.tb_1 td.ic_2{height:20px;text-align:center;}
+#about table.tb_1 td.ic_3{height:20px;text-align:center;}
+#about table.tb_1 tr.bg{background:#ebf5ff;}
+#about table.tb_1 tfoot th{padding:10px;border:1px solid #ccc;background:#f5f5f5;}
+#about table.tb_1 tfoot th.link{font-weight:normal;text-align:center;}
+
+#about table.tb_2{margin:0 auto;margin-bottom:10px;border-collapse:collapse;border-top:1px dotted #999;width:540px;}
+#about table.tb_2 th{padding:10px;border-bottom:1px dotted #ccc;font-size:14px;font-weight:normal;white-space:nowrap;}
+#about table.tb_2 th.merit{background:url(../imgs/about/bg_3.gif) repeat-x 0 0;}
+#about table.tb_2 th.demerit{background:url(../imgs/about/bg_2.gif) repeat-x 0 0;}
+#about table.tb_2 td{padding:10px;border-bottom:1px dotted #ccc;width:560px;}
+#about table.tb_2 td.merit{padding-left:60px;background:url(../imgs/about/ic_4.gif) no-repeat left center;}
+#about table.tb_2 td.negative{padding-left:60px;background:url(../imgs/about/ic_5.gif) no-repeat left center;}
+#about table.tb_2 td.demerit{padding-left:60px;background:url(../imgs/about/ic_6.gif) no-repeat left center;}
+#about table td.merit h4{margin:0 0 5px 0;font-size:14px;color:#f90;}
+#about table td.negative h4{margin:0 0 5px 0;font-size:14px;color:#666;}
+#about table td.demerit h4{margin:0 0 5px 0;font-size:14px;color:#666;}
+#about table p{line-height:150%;}
+
+#about blockquote {margin: 0; padding: 0; background: url(../imgs/index/fr_1_b.gif) no-repeat 0 0; height: 10px; font-size: 0; }
+.frame01 dl {
+	padding: 10px 10px 0;
+	background: #f5f5f5;
+	width: 510px;
+}
+*html .frame01  dl {width: 520px;}
+.frame01 dl dt {
+float: left;
+margin: 0 5px 0 0;
+width: 80px;
+}
+.frame01  dl dd {
+float: left;
+margin: 0 10px 0 0;
+width: 160px;
+font-size: 10px;
+line-height: 150%;
+text-align: justify;
+text-justify: distribute;
+}
+.ar_link{
+	background: url(../imgs/index/ar.gif) 1px 3px no-repeat;
+	padding-left: 12px;
+}

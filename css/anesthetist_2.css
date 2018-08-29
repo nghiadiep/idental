@@ -1,0 +1,141 @@
+/* anzen */
+
+#anesthetist_2 {
+margin: 0 0 30px 0;
+}
+#anesthetist_2 h2 {
+margin: 0 0 15px 0;
+width: 580px;
+height: 32px;
+}
+
+#anesthetist_2 .inner {
+padding: 0 10px;
+width: 560px;
+}
+*html #anesthetist_2 .inner {width: 580px;}
+#anesthetist_2 h3 {
+margin: 0 0 10px 0;
+font-size: 14px;
+color: #666;
+}
+#anesthetist_2 p.tx_1 {
+float: left;
+margin: 0;
+width: 370px;
+}
+#anesthetist_2 p.tx_2 {
+float: left;
+margin: 0 10px 0 0;
+width: 370px;
+}
+#anesthetist_2 div.tx_2 {
+float: left;
+margin: 0 10px 0 0;
+width: 370px;
+}
+#anesthetist_2 div.tx_2 p {
+margin: 0 0 10px 0;
+}
+#anesthetist_2 p.tx_3 {
+width: 180px;
+font-size: 12px;
+color: #666;
+}
+#anesthetist_2 p.tx_4 {
+font-size: 12px;
+color: #666;
+}
+#anesthetist_2 .ph_1 {
+float: left;
+margin: 0 10px 0 0;
+}
+#anesthetist_2 .ph_2 {
+margin: 0 0 30px 0;
+}
+#anesthetist_2 .ph_3 {
+float: left;
+margin: 0 10px 0 0;
+}
+#anesthetist_2 .ph_4 {
+float: left;
+margin: 0;
+}
+#anesthetist_2 .ph_3 img, #anesthetist_2 .ph_4 img {
+border: 1px solid #ccc;
+}
+#anesthetist_2 .tx_5 {
+float: left;
+margin: 0;
+width: 250px;
+}
+#anesthetist_2 .tx_5 span{
+color: #666;
+font-size: 11px;
+}
+#anesthetist_2 .il_5{
+float: right;
+}
+#anesthetist_2 .il_5 img{
+margin-left: 10px;
+}
+#anesthetist_2 ul.link {
+margin: 0;
+padding: 10px;
+background: #eee;
+line-height: 150%;
+list-style: none;
+}
+#anesthetist_2 ul.link li {
+margin: 0 0 5px 0;
+padding: 0 0 0 18px;
+background: url(../imgs/common/ic_5.gif) no-repeat 0 center;
+}
+#anesthetist_2 ul.link li span {color: #999;}
+
+#anesthetist_2 .review{
+	width: 556px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+#anesthetist_2 .review th,#anesthetist_2 .review td{
+	border-bottom: 1px dotted #938c3e;
+	vertical-align: top;
+	padding: 12px 0;
+	font-size: 12px;
+}
+#anesthetist_2 .review th{
+	width: 100px;
+	text-align: center;
+	font-weight: normal;
+}
+#anesthetist_2 .review td{
+	text-align: left;
+}
+anesthetist_2 .review td p{
+	padding: 10px 0;
+	font-family: "‚l‚r ‚oƒSƒVƒbƒN", Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3";
+}
+#anesthetist_2 .review .bold{
+	font-size: 18px;
+	color: #666;
+}
+#anesthetist_2 .mail{
+	margin-top: 20px;
+}
+#anesthetist_2 .mail table{
+width: 519px;
+margin: 18px 0;
+border-collapse: collapse;
+}
+#anesthetist_2 .mail table th{
+width: 161px;
+padding-right: 20px;
+line-height: 200%;
+}
+#anesthetist_2 .mail table td{
+padding: 0;
+font-size: 12px;
+}
+#anesthetist_2 .mail table a{
+}

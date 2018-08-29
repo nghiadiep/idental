@@ -1,0 +1,80 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>サンプルフォーム（Ａ－１）</title>
+</head>
+<body bgcolor="#ffffff">
+  <center>
+    <img src="./images/header.gif" border="0">
+    <table cellpadding="5" cellspacing="0" width="600">
+      <tr>
+        <td bgcolor="#ccffcc" height="40" style="font-size: 13px; font-weight: bold; color: black;">
+          オートレスポンダー　サンプルフォーム（Ａ－１）
+        </td>
+      </tr>
+    </table>
+  </center>
+  <form method="post" action="form.cgi">
+    <table width="600" border="0" cellspacing="1" cellpadding="5" align="center">
+      <tr bgcolor="#ffffff" valign="top"> 
+        <td>
+          <table border="1" cellspacing="1" cellpadding="5" align="center" width="100%" bordercolor="#996666">
+            <tr>
+              <td nowrap><b>お名前</b></td>
+              <td><input type="text" name="お名前">　必須</td>
+            </tr>
+            <tr>
+              <td nowrap><b>郵便番号</b></td>
+              <td><input type="text" name="郵便番号" size="10">　必須</td>
+            </tr>
+            <tr>
+              <td nowrap><b>住所</b></td>
+              <td><input type="text" name="住所" size="50">　必須</td>
+            </tr>
+            <tr>
+              <td nowrap><b>電話番号</b></td>
+              <td><input type="text" name="電話番号" size="20">　必須</td>
+            </tr>
+            <tr>
+              <td nowrap><b>FAX番号</b></td>
+              <td><input type="text" name="FAX番号" size="20"></td>
+            </tr>
+            <tr>
+              <td nowrap><b>E-Mail</b></td>
+              <td>
+                <input type="text" name="email" size="30">　必須<br>
+                (*Emailの項目名は「email」「e-mail」のいずれかのみ。その他の項目名は使えません) 
+              </td>
+            </tr>
+            <tr>
+              <td nowrap><b>URL</b></td>
+              <td><input type="text" name="URL" size="30"></td>
+            </tr>
+            <tr>
+              <td nowrap valign="top"><b>コメント</b></td>
+              <td><textarea name="コメント" cols="50" rows="5"></textarea><br></td>
+            </tr>
+          </table>
+          <br>
+          <table border="0" cellspacing="0" cellpadding="3" align="center" width="100%">
+            <tr bgcolor="#ccffcc" align="center"> 
+              <td colspan="2" height="37"> 
+                <input type="hidden" name="id" value="A-1">
+                <input type="hidden" name="mode" value="view">
+                <input type="submit" value="送信">
+                <input type="reset" value="リセット">
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </form>
+  <br>
+  <br>
+  <center>
+    <img src="./images/footer.gif" border="0">
+  </center>
+</body>
+</html>

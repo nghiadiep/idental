@@ -1,0 +1,136 @@
+/* sedation */
+
+#sedation {
+margin: 0 0 30px 0;
+}
+#sedation h2 {
+margin: 0 0 15px 0;
+width: 580px;
+height: 32px;
+}
+#sedation h2.ti_5 {margin: 0 0 25px 0;}
+#sedation h3 {
+margin: 0 0 10px 0;
+font-size: 14px;
+color: #666;
+}
+#sedation h4 {
+margin: 0 0 10px 0;
+padding: 6px;
+background: #7fbde7;
+font-size: 14px;
+color: #fff;
+}
+#sedation h6 {
+margin: 0 0 20px 0;
+font-size: 13px;
+font-weight: normal;
+text-align: right;
+}
+#sedation .inner {
+padding: 0 10px;
+width: 560px;
+}
+*html #sedation .inner {width: 580px;}
+#sedation .box {
+margin: 0 0 20px 0;
+padding: 10px;
+border: 1px solid #ccc;
+}
+#sedation ul.list {
+margin: 0 0 20px 0;
+padding: 0 0 0 18px;
+line-height: 150%;
+}
+#sedation ul.list li {
+margin: 0 0 5px 0;
+}
+#sedation ul.link {
+margin: 0 0 30px 0;
+padding: 21px 0 0 0;
+border-top: 1px dotted #ccc;
+line-height: 150%;
+list-style: none;
+}
+#sedation ul.link li {
+margin: 0 0 5px 0;
+padding: 0 0 0 18px;
+background: url(../imgs/common/ic_5.gif) no-repeat 0 center;
+}
+#sedation ul.link li span {color: #999;}
+#sedation .il_1 {
+float: left;
+}
+#sedation .ph_1 {
+float: left;
+margin: 0 10px 0 0;
+}
+#sedation .ph_2 {
+float: left;
+margin: 0;
+}
+#sedation .ph_3 {
+float: left;
+margin: 0 10px 0 0;
+}
+#sedation .ph_1 img, #sedation .ph_2 img, #sedation .ph_3 img {
+border: 1px solid #ccc;
+}
+#sedation .ph_4 {
+margin: 0 auto;
+margin-bottom: 30px;
+text-align: center;
+}
+#sedation .ph_5 {
+float: left;
+margin: 0 10px 0 0;
+}
+#sedation p.tx_1 {
+float: left;
+margin: 0;
+width: 370px;
+}
+#sedation p span{color: #666;}
+#sedation p.tx_2 {
+float: left;
+margin: 0 10px 0 0;
+width: 370px;
+}
+#sedation p.tx_3 {
+margin: 0 0 15px 0;
+padding: 0 0 15px 0;
+border-bottom: 1px dotted #ccc;
+}
+#sedation p.tx_4 {
+margin: 0 0 15px 0;
+}
+#sedation p.tx_5 {
+float: left;
+margin: 0 10px 0 0;
+width: 250px;
+}
+#sedation table {
+margin: 0 auto;
+margin-bottom:30px;
+padding: 0;
+width: 540px;
+line-height: 120%;
+}
+#sedation table th {
+padding: 0 20px 0 80px;
+width: 440px;
+height: 70px;
+font-size: 13px;
+font-weight: normal;
+text-align: left;
+}
+#sedation table th.st_1 {background: url(../imgs/sedation/step.gif) no-repeat 0 0;}
+#sedation table th.st_2 {background: url(../imgs/sedation/step.gif) no-repeat 0 -70px;}
+#sedation table th.st_3 {background: url(../imgs/sedation/step.gif) no-repeat 0 -140px;}
+#sedation table th.st_4 {background: url(../imgs/sedation/step.gif) no-repeat 0 -210px;}
+#sedation table td {
+padding: 0;
+background: #fff;
+width: 540px;
+height: 20px;
+}

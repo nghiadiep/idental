@@ -1,0 +1,366 @@
+/* ryoukin */
+
+#ryoukin {
+	margin: 0 0 30px 0;
+}
+#ryoukin h2 {
+	margin: 0 0 15px 0;
+}
+#ryoukin .wrapper p{
+	line-height: 180%;
+	font-size: 14px;
+}
+
+#ryoukin .inner {
+	margin:0 auto;
+	width: 760px;
+}
+
+#ryoukin h3 {
+margin: 0 0 10px 0;
+font-size: 14px;
+color: #666;
+}
+
+#ryoukin h4 {
+	margin: 0 0 10px 0;
+	text-indent: 6px;
+	padding: 6px 0;
+	background: #7fbde7;
+	font-size: 18px;
+	color: #fff;
+	text-align: left;
+}
+#ryoukin h5 {
+	padding: 6px 0;
+	text-indent: 6px;
+	background: #999;
+	font-size: 16px;
+	color: #fff;
+	text-align: left;
+}
+#ryoukin .il_3 {
+float: left;
+}
+#ryoukin .ex_1 {
+margin: 0 0 10px 0;
+text-align: center;
+}
+#ryoukin p {
+	margin: 0 0 10px 0;
+	font-size: 14px;
+}
+#ryoukin p span{color:#666;}
+#ryoukin p.tx_1 {
+	margin: 0 0 30px 0;
+}
+#ryoukin p.tx_2 {
+float: left;
+margin: 0;
+width: 250px;
+}
+#ryoukin p.tx_3 {
+font-size: 12px;
+}
+#ryoukin p.tx_4 {margin:0;text-align:right;}
+#ryoukin p.tx_5 {
+float: left;
+margin: 0 10px 0 0;
+width: 250px;
+}
+#ryoukin .le_1 {
+float: left;
+margin: 0 10px 0 0;
+width: 275px;
+}
+#ryoukin .ri_1 {
+float: left;
+margin: 0;
+width: 275px;
+}
+#ryoukin .le_2 {
+float: left;
+margin: 0 10px 0 0;
+width: 275px;
+}
+#ryoukin .ri_2 {
+float: left;
+margin: 0;
+width: 245px;
+}
+#ryoukin .fr_1 {
+padding: 14px;
+border: 1px solid #999;
+width: 245px;
+}
+*html #ryoukin .fr_1 {padding: 14px;}
+#ryoukin .fr_2 {
+padding: 14px;
+border: 1px solid #999;
+width: 530px;
+}
+*html #ryoukin .fr_2 {width: 560px;}
+
+#ryoukin .wrapper{
+	text-align: left;
+}
+#ryoukin .wrapper h3{
+	margin: 0 0 10px;
+}
+#ryoukin .wrapper p{
+	padding: 0 12px 6px;
+}
+#ryoukin .graph{
+	width: 798px;
+	/*background: #fff url(../imgs/ryoukin/bg_graph.gif) repeat-y;*/
+	border-collapse: collapse;
+	margin: 0 0 0 0;
+}
+#ryoukin .graph th,#ryoukin .graph td{
+	border: 0;
+	vertical-align: top;
+}
+#ryoukin .graph th{
+	width: 109px;
+	text-align: center;
+	/*background: url(../imgs/ryoukin/line_w_b.gif) bottom repeat-x;*/
+	padding-top: 10px;
+}
+#ryoukin .graph td{
+	width: 223px;
+}
+#ryoukin .graph td p{
+	font-size: 14px;
+	line-height: 180%;
+	color: #333;
+	padding: 8px 8px 0;
+	margin: 0;
+}
+#ryoukin .graph .btn{
+	/*background: url(../imgs/ryoukin/line_w_g.gif) bottom repeat-x;*/
+	padding: 0 0 20px 0;
+	text-align: center;
+}
+#ryoukin .fr_3 {
+	width: 780px;
+	background: #7fbde7;
+	text-align: center;
+	padding-bottom: 1px;
+}
+#ryoukin .fr_3 .in{
+	background: #fff;
+	width: 778px;
+	margin: 0 auto;
+	text-align: left;
+}
+#ryoukin ul.number {
+	margin: 0 0 20px 0;
+	padding: 15px 0 0 40px;
+}
+#ryoukin ul.number li{padding:0 0 0 23px;list-style:none;line-height:18px;}
+#ryoukin ul.number li.nb_1 {margin:0 0 15px 0;background:url(../imgs/common/nb_1.gif) left no-repeat;}
+#ryoukin ul.number li.nb_2 {margin:0 0 15px 0;background:url(../imgs/common/nb_2.gif) left no-repeat;}
+#ryoukin ul.number li.nb_3 {margin:0;background:url(../imgs/common/nb_3.gif) left no-repeat;}
+#ryoukin .il_1 {
+	margin: 0 0 10px 0;
+	text-align:center;
+}
+#ryoukin .fr_3 p{
+	padding: 0 40px;
+}
+#ryoukin .inner .m0{
+	width: 780px;
+	padding: 8px 0;
+	text-indent: 10px;
+	text-align: left;
+}
+#ryoukin .fr_3 .tx_4{
+	padding-bottom: 5px;
+}
+#ryoukin .price_ex{
+	width: 772px;
+	height: 199px;
+	background: url(../imgs/ryoukin/img_price_ex.gif);
+	margin-bottom: 25px;
+	text-align: left;
+}
+#ryoukin .price_ex p{
+	position: relative;
+	top: 20px;
+	left: 410px;
+	width: 352px;
+	color: #333;
+	line-height: 180%;
+}
+
+#ryoukin h6{
+	font-size:14px;
+	color: #666;
+	line-height: 1;
+	text-align: left;
+	text-indent: 10px;
+	padding: 5px 0;
+	background:url(../imgs/common/line_dot.gif) bottom repeat-x;
+	width: 710px;
+	margin:0 auto;
+}
+
+.shorei_ex{
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 0 28px;
+}
+.shorei_ex th,.shorei_ex td{
+	border: 1px solid #9a9a9a;
+}
+.shorei_ex th{
+	background: #9a9a9a;
+}
+.shorei_ex td{
+	text-align: center;
+	vertical-align: top;
+}
+.shorei_ex .space{
+	width: 8px;
+	border: none;
+}
+.shorei_ex .space img{
+	font-size: 1px;
+	line-height: 1px;
+	width: 8px;
+}
+.shorei_ex .cl_fix{
+	width: 320px;
+	margin: 10px auto;
+}
+.shorei_ex .cl_fix .left{
+	float: left;
+	width: 138px;
+}
+.shorei_ex .cl_fix .right{
+	float: right;
+	width: 170px;
+	padding-top: 30px;
+}
+.shorei_ex .cl_fix .right p{
+	color: #333;
+	font-size: 14px;
+	line-height: 180%;
+}
+.single_c{
+	border: 1px solid #999;
+	margin: 0 0 20px;
+}
+.single_c .left{
+	width: 383px;
+	float: left;
+}
+.single_c .right{
+	width: 356px;
+	float: right;
+}
+.single_c .shorei_ex{
+	padding-top: 20px;
+	margin: 0;
+}
+.single_c .right p{
+	color: #333;
+	line-height: 180%;
+	text-align: left;
+	padding-top: 40px;
+}
+.btn_allon4{
+	background: url(../imgs/common/line_dot.gif) top repeat-x;
+	padding:10px 0;
+	text-align: center;
+	width: 715px;
+	margin:0 auto;
+}
+.allon4_txt{
+	width: 710px;
+	margin:0 auto;
+	padding:20px 0;
+}
+.allon4_txt p{
+	font-size: 14px;
+	line-height: 1.8;
+	color: #333;
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+.px11{
+	color: #333;
+	font-size: 12px;
+	line-height: 180%;
+	width: 320px;
+	margin: 5px auto 10px;
+	text-align: left;
+}
+.inquiry{
+	background: url(../imgs/ryoukin/inquiry_bg02.gif) bottom no-repeat;
+	width: 801px;
+	margin:0 auto;
+	text-align: center;
+}
+.inquiry .bg{
+	background: url(../imgs/ryoukin/inquiry_bg01.gif) top no-repeat;
+	width: 801px;
+	text-align: center;
+	padding: 30px 0;
+}
+.inquiry p{
+	text-align: center;
+}
+.inquiry .btn{
+	margin: 0 auto 20px;
+	text-align: center;
+}
+
+#ryoukin .sla_tb{
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+#ryoukin .sla_tb td{
+	padding: 0 18px 10px 0;
+	text-align: left;
+	vertical-align: middle;
+}
+#ryoukin .sla_fla{
+	background: url(../imgs/common/line_dot.gif) bottom repeat-x;
+	margin: 0 auto 20px;
+}
+#ryoukin .sla_ttl{
+	width: 770px;
+	margin: 0 auto 20px;
+}
+#ryoukin .sla_ttl strong{
+	font-size: 18px;
+}
+#ryoukin .sla_ttl span{
+	color: #f00;
+}
+#ryoukin .sla_cont{
+	width: 800px;
+	background: #007bd0;
+	padding: 2px 0;
+	margin-bottom: 5px;
+	text-align: center; 
+}
+#ryoukin .sla_cont .inner{
+	width: 796px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 10px 0;
+	text-align: center;
+}
+#ryoukin .sla_cont .inner h3,
+#ryoukin .sla_cont .inner p{
+	width: 776px;
+	margin:0 auto;
+	text-align: left;
+}
+#ryoukin .sla_cont .inner h3{
+	margin: 0 auto 10px;
+}
